@@ -1,0 +1,51 @@
+.divider-component_team__divider {
+  height: 3px;
+  width: 5%;
+  background-color: #c7a17a;
+}
+
+.divider-component_team_1aY {
+  height: 1px;
+  width: 10%;
+  background-color: #f2f0ec;
+}
+
+.cards__social-icons_1W1 {
+  width: 30px;
+  height: 30px;
+  color: #c7a17a;
+}
+
+.social-icons__icon_1W1 svg {
+  width: 20px;
+  height: 20px;
+  color: #c7a17a;
+}
+
+.social-icons__icon_1W1 svg path {
+  fill: #c7a17a;
+}
+
+.list_15l li {
+  display: inline-block;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+  margin-bottom: 15px;
+}
+
+.social-icons-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+}
+
+.logo_2gS {
+  fill: #fff;
+  color: #fff;
+}
