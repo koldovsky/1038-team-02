@@ -1,0 +1,22 @@
+.features__title {
+    color: var(--features-title);
+    font-family: var(--features-font-family);
+}
+
+.features__subtitle,
+.features__icon {
+    font-family: var(--remember-font-family);
+
+}
+
+.features__description {
+    font-family: var(--remember-text-font-family);
+    color: var(--remember-subtext);
+
+}
+
+
+.features__item {
+    font-family: var(--remember-text-font-family);
+
+}
