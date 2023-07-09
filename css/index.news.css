@@ -1,0 +1,6 @@
+.news__article-image-content {
+    border-radius: 50%;
+}
+.news {
+    background-color: var(--news-background-color);
+}
