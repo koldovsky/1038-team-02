@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
