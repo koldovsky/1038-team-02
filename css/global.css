@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --features-title: #c7a17a;
+    --features-font-family: 'Satisfy', cursive;
+    --remember-font-family: 'Bebas Neue', sans-serif;
+    --remember-text-font-family: 'Roboto', sans-serif;
+    --remember-subtext: rgb(91, 91, 91);
+
+
 }
 :root {
     scroll-behavior: smooth;
