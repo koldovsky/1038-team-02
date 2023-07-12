@@ -1,3 +1,6 @@
+.header-background{
+    background-color: rgb(15, 15, 15);
+}
 
 .header-h1{
     color: burlywood;
@@ -7,14 +10,14 @@
 }
 
 .header-h2{
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 88px;
     font-family: Bebas Neue;
     text-align: center;
 }
 
 .header-p{
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 19px;
     font-family: Roboto;
     text-align: center;
