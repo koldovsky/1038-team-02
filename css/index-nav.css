@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+
+.header-h1{
+    color: burlywood;
+    font-size: 26px;
+    font-family: Satisfy;
+    text-align: center;
+}
+
+.header-h2{
+    color: blue;
+    font-size: 88px;
+    font-family: Bebas Neue;
+    text-align: center;
+}
+
+.header-p{
+    color: blue;
+    font-size: 19px;
+    font-family: Roboto;
+    text-align: center;
+}
