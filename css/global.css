@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +24,7 @@
     --logo-social: #fff;
     font-size: 17px;
     scroll-behavior: smooth;    
+    --feedbacks-description-font-family: 'Roboto';
 }
  img {
     display: block;
