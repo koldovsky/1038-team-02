@@ -7,7 +7,7 @@
     font-family: var(--remember-font-family);
 }
 .feedbacks_description{
-    font-family: var(--feedbacks-description-font-family);
+    font-family: var(--remember-text-font-family);
 }
 .feedbacks_name{
     font-family: var(--remember-font-family);
@@ -15,16 +15,16 @@
 
 .feedbacks_occupation{
     color: #27292bcc;
-    font-family: var(--feedbacks-description-font-family);
+    font-family: var(--remember-text-font-family);
     font-style: italic;
 }
 .feedbacks_text{
-    font-family: var(--feedbacks-description-font-family);
+    font-family: var(--remember-text-font-family);
     color: #828282;
 }
 
 .feedbacks_date{
-    font-family: var(--feedbacks-description-font-family) ;
+    font-family: var(--remember-text-font-family) ;
     color: #c7a17a;
     font-weight: bold;
 }
