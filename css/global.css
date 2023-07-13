@@ -21,6 +21,7 @@
     --article-text: rgb(130, 130, 130);
     --article-title: rgb(199, 161, 122);
     --news-background-color: #f2f0ec;
+    --logo-social: #fff;
     font-size: 17px;
     scroll-behavior: smooth;    
 }
