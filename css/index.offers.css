@@ -1,0 +1,6 @@
+
+.block-name {
+    font-family: var(--features-font-family);
+    color: var(--features-title);
+    text-align: center;
+}
