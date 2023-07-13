@@ -1,6 +1,41 @@
-.news__article-image-content {
+
+
+.news {
+    padding: 15px;
+}
+.news__header {
+    text-align: center;
+    padding: 0 9px;
+}
+
+.news__title {
+    font-family: var(--remember-font-family);
+}
+.news-article {
+    padding: 15px;
+}
+.news__article-date {
+    font-family: var(--remember-text-font-family);
+}
+.news__article-title {
+    font-family: var(--remember-font-family);
+}
+
+.news__date {
+    font-family: var(--remember-font-family);
+}
+.news__description {
+    font-family: var(--remember-text-font-family);
+}
+.news__article-image{
     border-radius: 50%;
+    width: 120px;
 }
 .news {
     background-color: var(--news-background-color);
+}
+
+
+.news__article-content{
+    font-family: var(--remember-text-font-family);
 }

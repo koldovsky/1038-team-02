@@ -8,6 +8,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 1200px;
+    margin:auto;
 }
 
 :root {
@@ -17,6 +19,10 @@
     --remember-text-font-family: 'Roboto', sans-serif;
     --remember-subtext: rgb(91, 91, 91);
     --news-background-color: #f2f0ec;
-    
+    font-size: 17px;
     scroll-behavior: smooth;    
 }
+ img {
+    display: block;
+    width: 100%;
+ }
