@@ -1,33 +1,52 @@
+.cards__image-container {
+display: flex;
+
+
+}
+
 .divider-component_team__divider {
   height: 3px;
   width: 5%;
-  background-color: #c7a17a;
+  font-family: var(--remember-font-family);
+  background-color: var(--features-title)
+  
 }
+
+.font-text-team {
+    font-family: var(--features-font-family);
+    color: var(--features-title);
+    text-align: center;
+}
+
+.our-team__title {
+font-family: var(--remember-font-family);
+text-align: center;
+}
+
+.our-team__text {
+  font-family: var(--remember-text-font-family);
+  }
+  
 
 .color_text {
-color: #c7a17a;
+color: var(--features-title);
+font-family: var(--remember-font-family)
 }
 
-.divider-component_team_1aY {
+.divider-component {
   height: 1px;
   width: 10%;
-  background-color: #f2f0ec;
+  background-color: var(--news-background-color)
 }
 
-.cards__social-icons_1W1 {
-  width: 30px;
-  height: 30px;
-  color: #c7a17a;
-}
-
-.social-icons__icon_1W1 svg {
+.social-icons__icon svg {
   width: 20px;
   height: 20px;
-  color: #c7a17a;
+  color: var(--features-title)
 }
 
-.social-icons__icon_1W1 svg path {
-  fill: #c7a17a;
+.social-icons__icon svg path {
+  fill: var(--features-title)
 }
 
 .list_15l li {
@@ -49,7 +68,7 @@ color: #c7a17a;
   margin-bottom: 1px;
 }
 
-.logo_2gS {
-  fill: #fff;
-  color: #fff;
+.logo_social { 
+    color: #fff;
+    fill: #fff; 
 }

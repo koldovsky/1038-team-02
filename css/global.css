@@ -3,11 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 1200px;
+    margin: auto;
 }
 
 :root {
@@ -16,10 +19,14 @@
     --remember-font-family: 'Bebas Neue', sans-serif;
     --remember-text-font-family: 'Roboto', sans-serif;
     --remember-subtext: rgb(91, 91, 91);
+    --article-text: rgb(130, 130, 130);
+    --article-title: rgb(199, 161, 122);
     --news-background-color: #f2f0ec;
     --contacts-background-color: #27292b;
-    
-    scroll-behavior: smooth;    
+    --logo-social: #fff;
+
+    scroll-behavior: smooth;
+    font-size: 17px;
 }
 
 img {
