@@ -1,8 +1,9 @@
 
 
 .news {
-    padding: 15px;
+    padding: 90px 24px;
 }
+
 .news__header {
     text-align: center;
     padding: 0 9px;
@@ -16,6 +17,7 @@
 }
 .news__article-date {
     font-family: var(--remember-text-font-family);
+    color: var(--article-title);
 }
 .news__article-title {
     font-family: var(--remember-font-family);
@@ -23,9 +25,12 @@
 
 .news__date {
     font-family: var(--remember-font-family);
+    color: var(--article-title);
+   
 }
 .news__description {
     font-family: var(--remember-text-font-family);
+    
 }
 .news__article-image{
     border-radius: 50%;
@@ -38,4 +43,6 @@
 
 .news__article-content{
     font-family: var(--remember-text-font-family);
+    color: var(--article-text);
+    font-weight: 400;
 }
