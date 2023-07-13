@@ -4,7 +4,7 @@
 
 .contacts__top {
     position: relative;
-    height: 65px; /* Замініть це значення на бажану фіксовану висоту */
+    height: 65px;
 }
 
 .contacts__image-top {
@@ -14,3 +14,31 @@
     object-position: center;
     background-color: var(--news-background-color);
 }
+
+.contacts__map-form-inner {
+    display: flex;
+    padding: 32px;
+}
+
+.contacts__map-container {
+    flex: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts__form-container {
+    flex: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 765px) {
+    .contacts__map-form-inner {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .contacts__map-container,
+    .contacts__form-container {
+        flex: auto;
+    }
