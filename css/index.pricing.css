@@ -1,0 +1,46 @@
+/*  */
+
+.pricing {
+    background-color: var(--contacts-background-color);
+}
+
+.pricing__subtitle {
+    color: var(--features-title);
+    font-family: var(--features-font-family);
+}
+
+.pricing__title {
+    color: var(--logo-social);
+}
+
+.pricing__devision {
+    color: var(--features-title);
+}
+
+.pricing__description {
+    color :#e6e6e6;
+}
+
+/* .pricing__articles {
+
+} */
+
+/* .pricing__article {
+
+} */
+
+.article__title {
+    color: #e6e6e6;
+}
+
+.article__price-duration {
+    color: var(--features-title);
+}
+
+.article__offer-list {
+    color: #e6e6e6;
+}
+
+.article__button {
+    background-color: var(--features-title);
+}
