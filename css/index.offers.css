@@ -1,6 +1,4 @@
-
-.block-name {
-    font-family: var(--features-font-family);
-    color: var(--features-title);
+.offers-course {
     text-align: center;
 }
+/* чомусь не підтягується цсс на сторінку */
