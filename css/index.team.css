@@ -1,57 +1,53 @@
-.our-team {
-  text-align: center;
-}
-
-.cards__role {
-  text-align: left;
-  margin-bottom: 5px;
-}
-
-.color_text {
-  margin: 0;
-}
-.cards-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  align-items: stretch; 
-  padding: 20px;
-  border: 30px;
-}
-
-
-.cards__item {
-  border: 2px solid var(--news-background-color);
-  display: grid;
-  grid-template-rows: auto 1fr;
-  align-items: center;
-  justify-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  height: 100%; /* Добавлено */
-}
-
-
-@media (max-width: 740px) {
-  .cards-list {
-    grid-template-columns: 1fr;
-  }
-}
-
-
 .cards__image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.cards-list {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  height: 100%;
+  border: 15px;
+}
+
+.cards__item {
+  margin-top: 20px;
+  border-top: 2px;
+  text-align: left;
+}
+
+.cards__role {
+  font-size: 14px;
+  font-family: var(--remember-text-font-family);
+  color: var(--remember-subtext);
+
+}
+.color_text {
+  font-size: 28px;
+  color: var (--features-title);
+  font-family: var(--remember-text-font-family);
+
+}
+
+
 
 .divider-component_team__divider {
   height: 3px;
   width: 5%;
   font-family: var(--remember-font-family);
-  background-color: var(--features-title);
+  
 }
+
+.cards__description {
+  font-family: var(--remember-text-font-family);
+  color: var(--article-text);
+
+  
+}
+
 
 .font-text-team {
   font-family: var(--features-font-family);
@@ -78,8 +74,24 @@
 
 .divider-component {
   height: 1px;
-  width: 10%;
+  width: 100%;
   background-color: var(--news-background-color);
+}
+
+@media (max-width: 740px) {
+  .cards-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cards__item {
+  margin-top: 20px;
+  border-top: 2px;
+  text-align: left;
+  /*padding-bottom: 39px;
+  padding-top: 39px;
+  padding-left: 43px;
+  padding-right: 43px;*/
 }
 
 .social-icons__icon svg {
@@ -115,4 +127,3 @@
   color: #fff;
   fill: #fff;
 }
-
