@@ -28,9 +28,13 @@ width: 188px;
 height: 32.64;
 }
 
-.header__nav-links li{
+.header__nav-links{
     text-align: center;
+}
+
+.href-item{
     color: #e6e6e6;
-    font-family: Roboto;
     text-decoration: none;
+    font-family: var(--remember-text-font-family);
+    
 }
