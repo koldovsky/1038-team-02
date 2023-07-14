@@ -5,6 +5,7 @@
 }
 
 .pricing::before {
+    content: " gi";
     background-image: url(https://res2.weblium.site/res/6172b76b979f220022d6edd5/61794443c65d1800229823a2?nowebp);
 }
 
