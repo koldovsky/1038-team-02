@@ -4,8 +4,17 @@
     background-color: var(--contacts-background-color);
 }
 
+.pricing__subtitle,
+.pricing__title,
+.pricing__devision,
+.pricing__description {
+    display: flex;
+    justify-content: center; 
+}
+
 .pricing__subtitle {
     color: var(--features-title);
+
     font-family: var(--features-font-family);
 }
 
@@ -18,6 +27,8 @@
 }
 
 .pricing__description {
+    display: flex;
+    justify-content: center;
     color :#e6e6e6;
 }
 
