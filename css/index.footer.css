@@ -19,7 +19,7 @@
     padding-right: 15px;
 }
 
-.footer__link {
+.footer__container-link {
     flex: 33%;
     padding-left: 15px;
     padding-right: 15px;
@@ -33,6 +33,6 @@
 
     .footer__logo,
     .footer__menu,
-    .footer__link {
+    .footer__container-link {
         flex: auto;
     }
