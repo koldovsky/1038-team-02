@@ -5,6 +5,7 @@
 }
 
 .news__header {
+    font-family: var(--remember-font-family);
     text-align: center;
     padding: 0 9px;
 }
@@ -34,8 +35,14 @@
 }
 .news__article-image{
     border-radius: 50%;
-    width: 120px;
-}
+    width: 70px;
+    
+  }
+
+  div .news__article-image-wrapper {
+    align-items: flex-start;
+  }
+    
 .news {
     background-color: var(--news-background-color);
 }
@@ -45,4 +52,9 @@
     font-family: var(--remember-text-font-family);
     color: var(--article-text);
     font-weight: 400;
+}
+
+.news__article-container {
+    display: flex;
+    align-items: flex-start;
 }

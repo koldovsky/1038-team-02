@@ -3,22 +3,38 @@
 }
 
 .header-h1{
-    color: burlywood;
+    color: var(--features-title);
     font-size: 26px;
-    font-family: Satisfy;
+    font-family: var(--features-font-family);
     text-align: center;
 }
 
 .header-h2{
     color: rgb(255, 255, 255);
     font-size: 88px;
-    font-family: Bebas Neue;
+    font-family: var(--remember-font-family);
     text-align: center;
 }
 
 .header-p{
-    color: rgb(255, 255, 255);
+    color: #e6e6e6;
     font-size: 19px;
-    font-family: Roboto;
+    font-family: var(--remember-text-font-family);
     text-align: center;
+}
+
+.header__nav-image{
+width: 188px;
+height: 32.64;
+}
+
+.header__nav-links{
+    text-align: center;
+}
+
+.href-item{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: var(--remember-text-font-family);
+    
 }
