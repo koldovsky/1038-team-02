@@ -1,8 +1,16 @@
-.cards__image-container {
+/*.cards__image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+*/
+
+.cards__item {
+  margin-top: 20px;
+  text-align: left;
+  border: 2px solid var(--news-background-color);
+}
+
 
 .cards-list {
   display: grid;
@@ -13,11 +21,6 @@
   border: 15px;
 }
 
-.cards__item {
-  margin-top: 20px;
-  border-top: 2px;
-  text-align: left;
-}
 
 .cards__role {
   font-size: 14px;
@@ -71,14 +74,15 @@
   background-color: var(--news-background-color);
 }
 
-.cards__item {
-  margin-top: 20px;
-  border-top: 2px;
+.bloc__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 39px !important;
+  padding-bottom: 39px !important;
+  padding-left: 43px !important;
+  padding-right: 43px !important;
   text-align: left;
-  /*padding-bottom: 39px;
-  padding-top: 39px;
-  padding-left: 43px;
-  padding-right: 43px;*/
 }
 
 .cards-item {
@@ -116,7 +120,6 @@
 }
 
 
-
 @media (min-width: 741px) {
   .cards__item[data-order="3"] {
     order: 2;
@@ -130,6 +133,11 @@
   .cards__item[data-order="6"] {
     order: 6;
   }
+
+}
+
+.background-image {
+  padding-top: 30px;
 }
 
 .social-icons__icon svg {
