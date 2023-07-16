@@ -24,12 +24,27 @@
     flex: 60%;
     padding-left: 15px;
     padding-right: 15px;
+    height: 700px;
+    margin: 0;
 }
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacts__form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
 
 .contacts__form-container {
     flex: 40%;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: var(--forma-background-color);
+    height: 700px;
 }
 
 @media (max-width: 765px) {
@@ -41,4 +56,89 @@
     .contacts__map-container,
     .contacts__form-container {
         flex: auto;
+        height: 700px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
+}
+
+.contacts__intro {
+    color: var(--features-title);
+    font-family: var(--features-font-family);
+    font-size: 26px;
+}
+
+.contacts__header {
+    font-family: var(--remember-font-family);
+    font-size: 38px;
+    color: var(--logo-social);
+}
+
+#map-frame {
+    border:0;
+    /*filter: invert(1);*/
+}
+
+.contacts__form-element {
+    margin: 12px 0px 0px 0px;
+    padding: 15px 26px;
+}
+
+.contacts__small-icon-svg-path {
+    fill: var(--features-title);
+}
+
+.contacts__pair-email-link,
+.contacts__pair-phone-link {
+    font-family: var(--remember-text-font-family);
+    text-decoration: none;
+    color: var(--contact-text-color);
+}
+
+.contacts__pair-email-link:hover,
+.contacts__pair-phone-link:hover {
+    text-decoration: underline;
+}
+
+.contacts__info-inner ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    align-items: flex-start;
+  }
+  
+  .contacts__info-inner li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 765px) {
+    .contacts__info-inner li {
+      flex-basis: 100%;
+    }
+  }
+  
+  .contacts__container-for-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacts__container-for-item-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .contacts__container-for-item-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
