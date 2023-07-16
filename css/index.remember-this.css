@@ -8,7 +8,9 @@
     font-family: var(--remember-font-family);
 
 }
-
+.features__icon-image {
+    width: 20px;
+}
 .features__description {
     font-family: var(--remember-text-font-family);
     color: var(--remember-subtext);

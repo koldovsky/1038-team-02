@@ -16,7 +16,7 @@
 :root {
     --features-title: #c7a17a;
     --features-font-family: 'Satisfy', cursive;
-    --remember-font-family: 'Bebas Neue', sans-serif;
+    --remember-font-family: 'Bebas Neue', cursive;
     --remember-text-font-family: 'Roboto', sans-serif;
     --remember-subtext: rgb(91, 91, 91);
     --article-text: rgb(130, 130, 130);
