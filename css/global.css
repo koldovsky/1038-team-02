@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 1200px;
+    margin: auto;
 }
 img {
     display: block;
@@ -15,14 +20,29 @@ img {
 :root {
     --features-title: #c7a17a;
     --features-font-family: 'Satisfy', cursive;
-    --remember-font-family: 'Bebas Neue', sans-serif;
+    --remember-font-family: 'Bebas Neue', cursive;
     --remember-text-font-family: 'Roboto', sans-serif;
+    --remember-satisfy-font-family: 'Satisfy', cursive;;
     --remember-subtext: rgb(91, 91, 91);
-
-
-}
-:root {
-    scroll-behavior: smooth;
+    --article-text: rgb(130, 130, 130);
+    --article-title: rgb(199, 161, 122);
     --news-background-color: #f2f0ec;
+    --contacts-background-color: #27292b;
+    --logo-social: #ffff;
+    --forma-background-color: #2e3032;
+    --contact-text-color: #e1e0e0;
+
+    scroll-behavior: smooth;
+    font-size: 17px;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

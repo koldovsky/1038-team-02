@@ -11,7 +11,9 @@
     font-size: 2.375rem;
 
 }
-
+.features__icon-image {
+    width: 20px;
+}
 .features__description {
     font-family: var(--remember-text-font-family);
     color: var(--remember-subtext);

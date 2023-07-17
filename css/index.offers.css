@@ -1,0 +1,69 @@
+.offers-course {
+    text-align: center;
+    background-color: var(--news-background-color)
+}
+
+.block-name {
+    color: var(--features-title);
+    font-family: var(--features-font-family);
+}
+
+.header-name {
+    font-family: var(--remember-font-family);
+}
+
+.sign-up-course {
+    color: var(--remember-subtext);
+    font-family: var(--remember-text-font-family);
+}
+
+.course-section {
+  font-family: var(--remember-font-family);
+}
+
+.days-money-places-text {
+  color: rgb(91,91,91);
+  font-family: var(--remember-text-font-family);
+}
+
+.course-text {
+  color: rgb(159,159,159);
+  font-family: var(--remember-text-font-family);
+}
+
+/*карусель*/
+
+/*.course-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+*/
+
