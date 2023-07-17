@@ -1,0 +1,30 @@
+.feedbacks_subtitle{
+    color: #c7a17a;
+    font-family: var(--features-font-family);
+}
+.feedbacks_title{
+    color: #dba17a;
+    font-family: var(--remember-font-family);
+}
+.feedbacks_description{
+    font-family: var(--remember-text-font-family);
+}
+.feedbacks_name{
+    font-family: var(--remember-font-family);
+}
+
+.feedbacks_occupation{
+    color: #27292bcc;
+    font-family: var(--remember-text-font-family);
+    font-style: italic;
+}
+.feedbacks_text{
+    font-family: var(--remember-text-font-family);
+    color: #828282;
+}
+
+.feedbacks_date{
+    font-family: var(--remember-text-font-family) ;
+    color: #c7a17a;
+    font-weight: bold;
+}
