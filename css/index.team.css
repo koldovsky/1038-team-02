@@ -1,6 +1,5 @@
 .cards-list {
   display: grid;
-  box-sizing: border-box;
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
   height: 100%;
@@ -22,6 +21,10 @@
   margin-top: 20px;
   text-align: left;
   border: 2px solid var(--news-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .cards__role {
@@ -29,22 +32,26 @@
   font-family: var(--remember-text-font-family);
   color: var(--remember-subtext);
   text-align: left;
+  padding-bottom: 20px;
 }
 
 .cards__name {
   font-size: 28px;
   color: var(--features-title);
+  padding-bottom: 15px;
 }
 
 .divider-component_team__divider {
   height: 3px;
-  width: 5%;
-  font-family: var(--remember-font-family);
+  width: 3%;
+  background-color: var(--features-title);
 }
 
 .cards__description {
   font-family: var(--remember-text-font-family);
   color: var(--article-text);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .font-text-team {
@@ -101,25 +108,15 @@
   padding-top: 30px;
 }
 
-.cards__image_sosial {
-  width: 30px;
-  height: 30px;
-}
-
 .cards__image_sosial-style {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  padding-bottom: 25px;
 }
 
 .cards__icons-items {
-  margin-right: 10px;
-}
-
-.cards__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 6px;
 }
 
 .cards__image_sosial_All {
@@ -132,4 +129,10 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+
+.cards__image-container {
+  width: 100%;
+  display: flex;
+  object-fit: cover;
 }
