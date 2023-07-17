@@ -7,6 +7,10 @@
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    width: 100%;
+}
 
 :root {
     --features-title: #c7a17a;
