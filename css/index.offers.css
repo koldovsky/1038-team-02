@@ -1,6 +1,12 @@
 .offers-course {
+    padding-top: 90px;
+    padding-bottom: 150px;
     text-align: center;
-    background-color: var(--news-background-color)
+    background-color: var(--news-background-color);
+    background-image: url("/img/index.offers/end block.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .block-name {
@@ -17,53 +23,49 @@
     font-family: var(--remember-text-font-family);
 }
 
+.courses-offers-sign-up {
+  margin-bottom: 20px;
+}
+
 .course-section {
   font-family: var(--remember-font-family);
+  text-align: left;
+}
+
+.latte-img {
+  width: 70%;
+  text-align: center;
+}
+
+.course-title {
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .days-money-places-text {
+  margin-top: 20px;
   color: rgb(91,91,91);
   font-family: var(--remember-text-font-family);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .course-text {
+  margin-top: 20px;
   color: rgb(159,159,159);
   font-family: var(--remember-text-font-family);
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
 }
 
-/*карусель*/
-
-/*.course-section {
-  position: relative;
-  overflow: hidden;
+.sign-up-of-course {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
 }
+/*карусель в процесі...*/
 
-.slides {
-  display: flex;
-  transition: transform 0.5s ease;
-}
 
-.slide {
-  flex: 0 0 100%;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  background: none;
-  font-size: 24px;
-  color: #000;
-  cursor: pointer;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-*/
 
