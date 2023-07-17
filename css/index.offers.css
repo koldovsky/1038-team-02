@@ -3,7 +3,7 @@
     padding-bottom: 150px;
     text-align: center;
     background-color: var(--news-background-color);
-    background-image: url("/img/index.offers/end block.svg");
+    background-image: url("../img/index.offers/end-block.svg");
     background-size: auto;
     background-repeat: no-repeat;
     background-position: bottom;
