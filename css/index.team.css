@@ -48,8 +48,8 @@
 .cards__name {
   font-size: 28px;
   color: var(--features-title);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .divider-component_team__divider {
@@ -63,7 +63,7 @@
 .cards__description {
   font-family: var(--remember-text-font-family);
   color: var(--article-text);
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 .font-text-team {
@@ -124,8 +124,8 @@ padding-bottom: 60px;
 .cards__image_sosial-style {
   display: flex;
   justify-content: left;
-  margin-top: 10px;
-  padding-bottom: 25px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .cards__icons-items {
