@@ -22,11 +22,13 @@
 .latte__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
+    color: #e6e6e6;
 }
 
 .dessert__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
+    color: #e6e6e6;
 }
 
 .latte__text {
