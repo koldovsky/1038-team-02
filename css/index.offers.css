@@ -1,6 +1,8 @@
 .offers-course {
     padding-top: 90px;
     padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     background-color: var(--news-background-color);
     background-image: url("../img/index.offers/end-block.svg");
@@ -29,26 +31,47 @@
 }
 
 .course-section {
+  padding: 7.5px;
   font-family: var(--remember-font-family);
   text-align: center;
 }
 
 .course-title {
+  text-align: left;
   margin-top: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.course-section-img {
-  width: ;
+.courses-container-img {
+  margin-left: 40px;   
+  margin-right: 40px;  
+}
+
+
+
+/* flex */
+.information-about-course {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.days,
+.money,
+.places {
+  margin-left: 40px;
+}
+
+.information-about-course > div {
+  display: flex;
+  align-items: center;
 }
 
 .days-money-places-text {
   margin-top: 20px;
-  color: rgb(91,91,91);
+  color: rgb(91, 91, 91);
   font-family: var(--remember-text-font-family);
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .course-text {
