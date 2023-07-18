@@ -32,11 +32,13 @@
 .latte__text {
     font-family: var(--remember-text-font-family);
     font-size: 17px;
+    color: #e6e6e6;
 }
 
 .dessert__text {
     font-family: var(--remember-text-font-family);
     font-size: 17px;
+    color: #e6e6e6;
 }
 
 .latte {
@@ -45,8 +47,6 @@
     background-position: center;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .dessert {
@@ -55,4 +55,9 @@
     background-position: center;
     display: flex;
     justify-content: center;
+}
+
+.recipes {
+    width: 375px;
+    padding: auto;
 }
