@@ -1,9 +1,20 @@
 .recipes__title {
-font-family: var(--features-font-family);
-font-size: 26px;
+ font-family: var(--features-font-family);
+ font-size: 26px;
+ color: var(--features-title);
 }
 
 .recipes__subtitle {
-font-family: var(--remember-font-family);
-font-size: 48px;
+ font-family: var(--remember-font-family);
+ font-size: 48px;
+}
+
+.recipes__description {
+ font-family: var(--remember-text-font-family);
+ font-size: 19px;
+}
+
+.recipes__text {
+ font-family: var(--remember-text-font-family);
+ font-size: 17px;
 }
