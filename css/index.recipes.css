@@ -38,3 +38,23 @@
     font-family: var(--remember-text-font-family);
     font-size: 17px;
 }
+
+.latte {
+    background-image: url(../img/latte.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 403px;
+}
+
+.dessert {
+    background-image: url(../img/dessert.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+}
