@@ -17,4 +17,24 @@
 .recipes__text {
  font-family: var(--remember-text-font-family);
  font-size: 17px;
+} 
+
+.latte__title {
+    font-family: var(--remember-text-font-family);
+    font-size: 28px;
+}
+
+.dessert__title {
+    font-family: var(--remember-text-font-family);
+    font-size: 28px;
+}
+
+.latte__text {
+    font-family: var(--remember-text-font-family);
+    font-size: 17px;
+}
+
+.dessert__text {
+    font-family: var(--remember-text-font-family);
+    font-size: 17px;
 }
