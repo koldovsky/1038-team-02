@@ -48,6 +48,7 @@
 .cards__name {
   font-size: 28px;
   color: var(--features-title);
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -57,13 +58,12 @@
   background-color: var(--features-title);
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .cards__description {
   font-family: var(--remember-text-font-family);
   color: var(--article-text);
-
+  padding-top: 15px;
 }
 
 .font-text-team {
