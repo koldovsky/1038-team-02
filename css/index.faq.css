@@ -1,0 +1,99 @@
+.faq {
+    position: relative;
+    background: url(../img/faq_background.png) 51.25% 32.81% / cover no-repeat fixed;
+}
+
+.faq-inner {
+    padding: 140px 0;
+}
+
+.faq-content {
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-about {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .faq-cases {
+
+} */
+
+.faq-uptitle {
+    font-family: var(--features-font-family);
+    color: var(--article-title);
+}
+
+.faq-title {
+    font-family: var(--faq-font-family);
+    color: var(--logo-social);
+
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.faq-title::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 125%;
+    left: 0;
+    z-index: 1;
+
+    height: 0.2rem;
+    width: 20%;
+    background-color: var(--article-title);
+}
+
+.faq-about-courses-text-bold {
+    font-family: var(--remember-text-font-family);
+    font-weight: bold;
+    color: var(--logo-social);
+}
+
+.faq-about-courses-text {
+    font-family: var(--remember-text-font-family);
+    color: var(--contact-text-color);
+
+    margin: 25px 0;
+}
+
+.faq-course-button {
+    font-family: var(--remember-text-font-family);
+    color: var(--logo-social);
+}
+
+.faq-contact-button {
+    font-family: var(--remember-text-font-family);
+    color: var(--article-title);
+}
+
+.faq-case-content {
+
+}
+
+.faq-case-questions {
+    font-family: var(--faq-font-family);
+    color: var(--logo-social);
+}
+
+.faq-case-answers {
+    font-family: var(--remember-text-font-family);
+    color: var(--contact-text-color);
+}
+
+
+@media screen and (max-width: 760px) {
+    .faq-content {
+        padding: 0 40px;
+    
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
