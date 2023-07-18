@@ -1,4 +1,9 @@
 .recipes__title {
+font-family: var(--features-font-family);
+font-size: 26px;
+}
 
-    
+.recipes__subtitle {
+font-family: var(--remember-font-family);
+font-size: 48px;
 }
