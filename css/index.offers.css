@@ -25,15 +25,11 @@
 
 .courses-offers-sign-up {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .course-section {
   font-family: var(--remember-font-family);
-  text-align: left;
-}
-
-.latte-img {
-  width: 70%;
   text-align: center;
 }
 
@@ -41,6 +37,10 @@
   margin-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.course-section-img {
+  width: ;
 }
 
 .days-money-places-text {
@@ -55,9 +55,6 @@
   margin-top: 20px;
   color: rgb(159,159,159);
   font-family: var(--remember-text-font-family);
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
 }
 
 .sign-up-of-course {
