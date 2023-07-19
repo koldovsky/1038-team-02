@@ -16,14 +16,24 @@
     font-family: var(--remember-text-font-family);
 
 }
-.master-coffe__new-york_title {
+.master-coffee__new-york_title {
     color: black;
     font-family: var(--remember-font-family);
+
+.divider-component_master-coffee_component {
+    height: 3px;
+    width: 3%;
+    background-color: var(--features-title);
+    margin-left: auto;
+    margin-right: auto;
 }
-.master-coffe__new-york_text {
+}
+.master-coffee__new-york_text {
     color:var(--article-text) ;
     font-family: var(--remember-text-font-family);
 }
 .buttom_lear-more {
-background-color: var(--features-title);
+    color: white;
+    font-family: var(--remember-subtext);
+    background-color: var(--features-title);
 }
