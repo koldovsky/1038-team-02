@@ -1,22 +1,22 @@
-. master-coffee__block_title {
+.master-coffee__block_title {
     color: #c7a17a;
     font-family: var(--features-font-family);
 }
-. master-coffee__title {
+.master-coffee__title {
     color: black;
     font-family: var(--remember-font-family);
 }
-. master-coffee__subtitle {
+.master-coffee__subtitle {
     color:var(--remember-subtext);
     font-family: var(--remember-text-font-family);
 }
-. master-coffee__text  {
+.master-coffee__text  {
 
     color: var(--article-text);
     font-family: var(--remember-text-font-family);
 
 }
-. master-coffe__new-york_title {
+.master-coffe__new-york_title {
     color: black;
     font-family: var(--remember-font-family);
 }
