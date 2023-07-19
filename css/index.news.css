@@ -7,11 +7,12 @@
     padding: 60px 24px;
 }
 .news__header {
-    font-family: var(--remember-font-family);
+    font-family: var(--contacts-background-color);
     text-align: center;
     padding: 0 9px;
 }
 .news__subtitle {
+    font-family: var(--faq-font-family);
     font-size: 58px;
     padding: 10px 0;
     font-weight: 400;
@@ -19,19 +20,17 @@
 .news__description{
     font-family: var(--remember-text-font-family);
     font-size: 19px;
-    color:  var(--news-background-color);
+    color:  var(--contacts-background-color);
     padding: 0 0 30px 0;
 }
 .news__title-component {
-    display: block;
     height: 3px;
     width: 5%;
-    background-color: var(--article-title);
     padding: 15px 0;
 }
 .news__title {
     font-family: var(--remember-satisfy-font-family);
-    color: var(--article-title);
+    color: var(--contacts-background-color);
     font-size: 26px;
     font-weight: 400;
 }
@@ -49,15 +48,15 @@
 }
 a:hover {
     text-decoration: underline;
-    color: var(--news-background-color);;
+    color: var(--contacts-background-color);;
 }
 a {
     text-decoration: none;
-    color: var(--news-background-color);;
+    color: var(--contacts-background-color);;
 }
 .news__date {
     font-family: var(--remember-font-family);
-    color: var(--article-title);
+    color: var(--features-title);
     font-size: 15px;
     
    
