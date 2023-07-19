@@ -1,35 +1,66 @@
-.features__title {
-    color: var(--features-title);
-    font-family: var(--features-font-family);
-    font-size: 1.625rem;
-    margin: auto;
+.features__top-line {
+    display: block;
+}
+
+.features__list {
+    list-style: none;
+}
+
+.features__content {
+    padding: 90px 24px 60px 24px;
+}
+
+.features__info {
+    padding: 0 15px 0 15px;
 }
 
 .features__subtitle,
 .features__icon {
     font-family: var(--remember-font-family);
-    font-size: 2.375rem;
+    font-size: 38px;
+    margin-top: 20px;
 
 }
-.features__icon-image {
-    width: 20px;
+
+#emphasis {
+    margin: 15px 0 15px 0;
+    height: 3px;
+    width: 10%;
+    background-color: var(--features-title);
 }
+
+.features__title {
+    color: var(--features-title);
+    font-family: var(--features-font-family);
+    font-size: 26px;
+
+}
+
 .features__description {
     font-family: var(--remember-text-font-family);
     color: var(--remember-subtext);
-    font-size: 1.1875rem;
+    font-size: 19px;
 }
-
 
 .features__item-title {
     font-family: var(--remember-font-family);
-    font-size: 1.5rem;
+    font-size: 24px;
+    margin-right: 15px;
 
 }
 
 .features__item-description {
     font-family: var(--remember-text-font-family);
-    font-size: 1.0625rem;
+    color: var(--remember-color-item-description);
+    font-size: 17px;
+}
+
+.features__list-wrapper {
+    margin-top: 25px;
+}
+
+.features__icon-image {
+    width: 20px;
 }
 
 .features__icon-image {
@@ -38,34 +69,70 @@
 }
 
 .features__image {
-    width: 272px;
+    min-width: 272px;
 
 }
 
 .features__image {
     position: relative;
-  /*  background-position: center;
-    background-size: cover; */
+    box-sizing: border-box;
 }
 
+.under-circle {
+    width: 50px;
+    height: 50px;
+    background-color: var(--circle-remember);
+    border-radius: 100%;
+
+}
 
 .features__image-wrapper {
+    margin-top: 0;
+    padding: 0 15px 0 15px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-   
 }
 
 .features__icon {
+    padding: 7.5px 0 7.5px 0;
     display: flex;
 }
 
-@media (min-width: 758px) {
+.features__icon-container {
+    margin: 7.5px;
+}
+
+@media (min-width: 768px) {
 
     .features__icon,
     .features__content {
         display: flex;
+
     }
 
+    .features__subtitle {
+        font-size: 48px;
+    }
+
+    .features__item-title {
+        font-size: 26px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .features__title {
+        font-size: 24px;
+    }
+
+    .features__subtitle {
+        font-size: 58px;
+    }
+
+    .features__item-title {
+        font-size: 28px;
+    }
 }

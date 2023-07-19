@@ -22,6 +22,7 @@ img {
     --features-font-family: 'Satisfy', cursive;
     --remember-font-family: 'Bebas Neue', cursive;
     --remember-text-font-family: 'Roboto', sans-serif;
+    --remember-color-item-description: #828282;
     --remember-satisfy-font-family: 'Satisfy', cursive;;
     --remember-subtext: rgb(91, 91, 91);
     --article-text: rgb(130, 130, 130);
@@ -31,6 +32,7 @@ img {
     --logo-social: #ffff;
     --forma-background-color: #2e3032;
     --contact-text-color: #e1e0e0;
+    --circle-remember: rgb(242, 240, 236);
 
     scroll-behavior: smooth;
     font-size: 17px;
