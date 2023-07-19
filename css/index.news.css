@@ -11,9 +11,19 @@
     text-align: center;
     padding: 0 9px;
 }
+.news__title-component-wrapper {
+    padding: 15px 0;
+}
+.news__title-component {
+height: 3px;
+width: 5%;
+background-color: var(--features-title);
+margin-left: auto;
+margin-right: auto;
+}
 .news__subtitle {
     font-family: var(--faq-font-family);
-    font-size: 58px;
+    font-size: 38px;
     padding: 10px 0;
     font-weight: 400;
 }
@@ -23,14 +33,9 @@
     color:  var(--contacts-background-color);
     padding: 0 0 30px 0;
 }
-.news__title-component {
-    height: 3px;
-    width: 5%;
-    padding: 15px 0;
-}
 .news__title {
     font-family: var(--remember-satisfy-font-family);
-    color: var(--contacts-background-color);
+    color: var(--features-title);
     font-size: 26px;
     font-weight: 400;
 }
@@ -57,9 +62,7 @@ a {
 .news__date {
     font-family: var(--remember-font-family);
     color: var(--features-title);
-    font-size: 15px;
-    
-   
+    font-size: 15px;   
 }
 .news__article-image{
     border-radius: 50%;
@@ -75,6 +78,7 @@ a {
     text-align: justify-all;
     letter-spacing: normal;
     margin-bottom: 5px;
+    line-height: 25.5px;
 }
 .news__article-content-wrapper {
     padding: 20px 0 40px 0;
