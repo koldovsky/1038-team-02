@@ -17,9 +17,7 @@
 }
 .master-coffee__new-york_title {
     color: black;
-    font-family: var(--remember-font-family);.master-coffee__block_title 
-        color: var(--features-title);
-        font-family: var(--features-font-family);
+    font-family: var(--remember-font-family);
     }
 
 .divider-component_master-coffee_divider {
@@ -31,7 +29,7 @@
 }
 
 .master-coffee__new-york_text {
-    color:var(--article-text) ;
+    color: var(--article-text) ;
     font-family: var(--remember-text-font-family);
 }
 .buttom_lear-more {
