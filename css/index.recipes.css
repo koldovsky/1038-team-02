@@ -63,9 +63,13 @@
     justify-content: center;
 }
 
+/*
+не можна так називати клас, він вже є у глобальному модулі для всього сайту
+і назва на по BEM https://docs.google.com/document/d/1rCGu3ENEzLJHrKun5fDUFwcmMd6QQUiHj5o0tY5gkyk/edit
 .container {
     display: flex;
     justify-content: space-between;
     padding-top: 90px;
     padding-bottom: 90px;
 }
+*/
