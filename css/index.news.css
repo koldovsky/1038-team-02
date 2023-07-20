@@ -1,37 +1,45 @@
 
+@media (max-width: 613px) {
+
+}
+
 .news {
     padding: 90px 24px;
 }
 .news__header {
-    font-family: var(--remember-font-family);
+    font-family: var(--contacts-background-color);
     text-align: center;
     padding: 0 9px;
 }
+.news__title-component-wrapper {
+    padding: 15px 0;
+}
+.news__title-component {
+height: 3px;
+width: 5%;
+background-color: var(--features-title);
+margin-left: auto;
+margin-right: auto;
+}
 .news__subtitle {
+    font-family: var(--faq-font-family);
     font-size: 38px;
     padding: 10px 0;
+    font-weight: 400;
 }
 .news__description{
     font-family: var(--remember-text-font-family);
     font-size: 19px;
-    color: #27292B;
+    color:  var(--contacts-background-color);
     padding: 0 0 30px 0;
-}
-.news__title-component {
-    height: 3px;
-    width: 5%;
-    background-color: var(--article-title);
-    padding: 15px 0;
 }
 .news__title {
     font-family: var(--remember-satisfy-font-family);
-    color: var(--article-title);
+    color: var(--features-title);
     font-size: 26px;
+    font-weight: 400;
 }
-.news-article {
-    padding: 15px;
-    color: ;
-}
+
 .news__article-date {
     font-family: var(--remember-font-family);
     color: var(--article-title);
@@ -41,21 +49,20 @@
 .news__article-title {
     font-family: var(--remember-font-family);
     font-size: 24px;
+    font-weight: 400;
 }
 a:hover {
     text-decoration: underline;
-    color: #27292B;
+    color: var(--contacts-background-color);;
 }
 a {
     text-decoration: none;
-    color: #27292B;
+    color: var(--contacts-background-color);;
 }
 .news__date {
     font-family: var(--remember-font-family);
-    color: var(--article-title);
-    font-size: 15px;
-    
-   
+    color: var(--features-title);
+    font-size: 15px;   
 }
 .news__article-image{
     border-radius: 50%;
@@ -68,10 +75,10 @@ a {
     font-family: var(--remember-text-font-family);
     color: var(--article-text);
     font-weight: 400;
-    line-height: 25.5px;
     text-align: justify-all;
     letter-spacing: normal;
     margin-bottom: 5px;
+    line-height: 25.5px;
 }
 .news__article-content-wrapper {
     padding: 20px 0 40px 0;
