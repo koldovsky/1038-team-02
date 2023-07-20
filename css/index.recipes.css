@@ -58,3 +58,10 @@
     display: flex;
     justify-content: center;
 }
+
+.recipes__list {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--features-title);
+    min-height: 400px;
+}
