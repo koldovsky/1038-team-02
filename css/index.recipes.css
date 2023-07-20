@@ -63,9 +63,8 @@
     justify-content: center;
 }
 
-.container {
+.recipes_list {
     display: flex;
-    justify-content: space-between;
     padding-top: 90px;
     padding-bottom: 90px;
 }
