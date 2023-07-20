@@ -46,8 +46,10 @@
 .latte {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 220px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 323px;
+    height: 403px;
     background-image: url(../img/latte.png);
     background-size: cover;
     background-position: center;
@@ -57,7 +59,7 @@
 
 .dessert {
     margin-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 5px;
     margin-bottom: 15px;
     width: 323px;
@@ -70,6 +72,5 @@
 }
 
 .recipes {
-    display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
 }
