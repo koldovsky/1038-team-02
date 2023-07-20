@@ -44,6 +44,7 @@
 }
 
 .latte {
+    margin: ;
     width: 323px;
     height: 403px;
     background-image: url(../img/latte.png);
@@ -63,7 +64,7 @@
     justify-content: center;
 }
 
-.recipes_list {
+.recipes__list {
     display: flex;
     padding-top: 90px;
     padding-bottom: 90px;
