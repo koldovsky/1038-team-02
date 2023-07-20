@@ -62,3 +62,8 @@
     display: block;
     justify-content: center;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
