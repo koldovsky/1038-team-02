@@ -44,24 +44,32 @@
 }
 
 .latte {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 220px;
+    margin-right: 300px;
     background-image: url(../img/latte.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
 .dessert {
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 323px;
+    height: 403px;
     background-image: url(../img/dessert.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
-.recipes__list {
-    margin: 20px;
-    padding: 20px;
-    background-color: var(--features-title);
-    min-height: 400px;
+.recipes {
+    display: flex;
+    align-items: flex-start;
 }
