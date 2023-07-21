@@ -1,12 +1,12 @@
 .feedbacks_subtitle{
-    color: #c7a17a;
+    color: var(--features-title);
     font-family: var(--features-font-family);
     text-align: center;
     margin-bottom: 15px;
     font-size: 26px;
 }
 .feedbacks_title{
-    color: #dba17a;
+    color: var(--feedbacks-title);
     font-family: var(--remember-font-family);
     text-align: center;
     font-size: 2.3rem;
@@ -27,7 +27,7 @@
 }
 
 .feedbacks_occupation{
-    color: #27292bcc;
+    color:var(--feedbacks-ocupation);
     font-family: var(--remember-text-font-family);
     font-style: italic;
     font-size: 14px;
@@ -35,14 +35,14 @@
 }
 .feedbacks_text{
     font-family: var(--remember-text-font-family);
-    color: #828282;
+    color: var(--article-text);
     font-size: 17px;
     margin-top: 20px;
 }
 
 .feedbacks_date{
     font-family: var(--remember-text-font-family) ;
-    color: #c7a17a;
+    color: var(--features-title);
     font-weight: bold;
     margin-top: 20px;
 }
