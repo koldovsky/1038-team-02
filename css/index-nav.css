@@ -1,48 +1,73 @@
 .header-background {
-    background-color: rgb(15, 15, 15);
+    background-image: url(../img/barista.png);
+    min-height: 578px;
+    background-size:contain;
+    background-position: center;
 }
+
 .header-h1 {
     color: var(--features-title);
     font-size: 26px;
     font-family: var(--features-font-family);
     text-align: center;
 }
+
 .header-h2 {
     color: rgb(255, 255, 255);
-    font-size: 88px;
+    font-size: 66px;
     font-family: var(--remember-font-family);
     text-align: center;
+    font-weight: 500;
 }
+
 .header-p {
     color: #e6e6e6;
     font-size: 19px;
     font-family: var(--remember-text-font-family);
     text-align: center;
+    font-weight: 500;
 }
+
 .header__nav-image {
-    width: 188px;
-    height: 32.64;
+    display: block;
+    width: 157.34px;
+    height: 27.31;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-color: transparent;
 }
+
 .header__nav-links {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 62;
     text-align: center;
     text-decoration: none;
 }
+
 .href-item {
     color: #e6e6e6;
     text-decoration: none;
     font-family: var(--remember-text-font-family);
 
 }
-.header__nav-social{
+
+.header__nav-social {
+    flex-direction: row;
     text-align: right;
     margin-bottom: -15px;
     margin-left: -7.5px;
     margin-right: -7.5px;
 }
-.social-icons{
+
+.social-icons {
     display: inline-block;
     flex-shrink: 0;
+}
+
+@media (min-width: 991px) {
+    .header__nav-image {
+        width: 188px;
+        height: 32.64;
+    }
 }
