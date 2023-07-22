@@ -22,18 +22,24 @@
     --remember-font-family: 'Bebas Neue', cursive;
     --faq-font-family: 'Bebas Neue', sans-serif;
     --remember-text-font-family: 'Roboto', sans-serif;
+    --remember-color-item-description: #828282;
     --remember-satisfy-font-family: 'Satisfy', cursive;
-    --remember-subtext: rgb(91, 91, 91);
-    --article-text: rgb(130, 130, 130);
-    --article-title: rgb(199, 161, 122);
+    --remember-subtext: #5b5b5b;
+    --article-text: #828282;
+    --article-title: #c7a17a;
     --news-background-color: #f2f0ec;
     --contacts-background-color: #27292b;
+    --faq-background-color: rgba(39, 41, 43, 0.9);
     --logo-social: #ffff;
     --forma-background-color: #2e3032;
     --contact-text-color: #e1e0e0;
+    --circle-remember: rgb(242, 240, 236);
 
+    --course-text-color: #9f9f9f;
     scroll-behavior: smooth;
     font-size: 17px;
+    --feedbacks-title: #dba17a;
+    --feedbacks-ocupation:  #27292bcc;
 }
 
 img {

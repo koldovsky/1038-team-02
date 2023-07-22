@@ -22,11 +22,13 @@
 .latte__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
+    color: #e6e6e6;
 }
 
 .dessert__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
+    color: #e6e6e6;
 }
 
 .latte__text {
@@ -42,22 +44,28 @@
 }
 
 .latte {
+    margin: ;
+    width: 323px;
+    height: 403px;
     background-image: url(../img/latte.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
 .dessert {
+    width: 323px;
+    height: 403px;
     background-image: url(../img/dessert.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
-.recipes {
-    width: 375px;
-    padding: auto;
+.recipes__list {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }

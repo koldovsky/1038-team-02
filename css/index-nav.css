@@ -56,8 +56,8 @@
     flex-direction: row;
     text-align: right;
     margin-bottom: -15px;
-    margin-left: -7.5px;
-    margin-right: -7.5px;
+    margin-left: 0px;
+    margin-right: 05px;
 }
 
 .social-icons {

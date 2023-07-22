@@ -1,3 +1,14 @@
+.under__image {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url("../img/team_line_under.svg");
+  background-size: cover;
+  background-position: center;
+}
+
 .our-team {
   padding-top: 90px;
   padding-bottom: 90px;
