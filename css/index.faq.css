@@ -32,12 +32,14 @@
 .faq-uptitle {
     font-family: var(--features-font-family);
     font-size: 1.5rem;
+    font-weight: lighter;
     color: var(--article-title);
 }
 
 .faq-title {
     font-family: var(--faq-font-family);
     font-size: 3.6rem;
+    font-weight: lighter;
     color: var(--logo-social);
 
     position: relative;
@@ -61,7 +63,6 @@
 .faq-about-courses-text-bold {
     font-family: var(--remember-text-font-family);
     font-size: 1.1rem;
-    font-weight: bold;
     color: var(--logo-social);
 }
 
@@ -115,18 +116,94 @@
     text-decoration: none;
 }
 
-/* .faq-case-content {
+.faq-cases {
+    display: flex;
+    flex-direction: column;
+}
 
-} */
+.faq-case-content {
+    position: relative;
+    padding: 1.25rem 0;
+}
+
+.faq-case-content:after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    height: 1px;
+    width: 100%;
+
+    background-color: var(--logo-social);
+}
+
+.faq-case-title {
+    display: flex;
+}
 
 .faq-case-questions {
+    flex: 6;
+    display: inline-block;
     font-family: var(--faq-font-family);
+    font-size: 1.75rem;
+    font-weight: lighter;
     color: var(--logo-social);
+}
+
+.faq-case-icon {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.faq-case-icon-inner {
+    position: relative;
+    
+    width: 40px;
+    height: 40px;
+}
+
+.faq-case-icon-inner:before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 1;
+
+    height: 50%;
+    width: 1px;
+
+    background-color: var(--logo-social);
+}
+
+.faq-case-icon-inner:after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: 1;
+
+    height: 1px;
+    width: 50%;
+
+    background-color: var(--logo-social);
 }
 
 .faq-case-answers {
     font-family: var(--remember-text-font-family);
+    font-size: 1rem;
     color: var(--contact-text-color);
+
+    margin-top: 1.25rem;
 }
 
 
