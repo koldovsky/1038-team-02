@@ -12,3 +12,6 @@ var max = function (list) {
   });
   return list[0];
 };
+//Eremin Slava
+const min = list => list.reduce((acc, curr) => (acc < curr ? acc : curr), list[0]);
+const max = list => list.reduce((acc, curr) => (acc > curr ? acc : curr), list[0]);
