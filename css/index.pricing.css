@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 60px 0 0 0;
 }
 
 .pricing__background-add {
@@ -11,12 +12,12 @@
     transform: rotate(180deg);
 }
 
-.pricing {
-    padding: 60px 0 0 0 ;
-}
-
 .pricing__background-settings {
     background: var(--contacts-background-color);
+}
+
+.pricing__container {
+    padding: 90px auto;
 }
 
 .pricing__titles-descriptiopn-part {
@@ -35,8 +36,12 @@
 
 .pricing__subtitle {
     color: var(--features-title);
-
     font-family: var(--features-font-family);
+    font-size: 26px;
+    font-stretch: 100%;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 }
 
 .pricing__title {
@@ -58,11 +63,12 @@
 
 .pricing__description {
     font-family: var(--remember-text-font-family);
-    font-size: 1rem;
+    font-size: 19px;
     font-weight: 400;
-    line-height: 1.7rem;
+    line-height: 28.5px;
     display: flex;
     justify-content: center;
+    text-align: center;
     color :#e6e6e6;
     font-stretch: 100%;
 
