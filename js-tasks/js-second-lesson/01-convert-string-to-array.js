@@ -4,7 +4,7 @@ function stringToArray(string) {
   }
   
 //Eremin Slava
-function stringToArray(string){ 
-  string = string.split(" ").map(word => word.trim());
-  return string;
+function stringToArray(string) {
+  return string.split(" ").map(word => word.trim());
 }
+
