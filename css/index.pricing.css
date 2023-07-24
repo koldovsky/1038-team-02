@@ -5,12 +5,13 @@
     background: var(--contacts-background-color);
 }
 
-.pricing::before {
+/* .pricing::before {
     content: " ";
     display: inline-block;
     background-size: cover;
     /* background-image: url(https://res2.weblium.site/res/6172b76b979f220022d6edd5/61794443c65d1800229823a2?nowebp); */
     background-image: url(./img/background-part.svg);
+    width: 100%;
 }
 
 .pricing::after {
@@ -21,7 +22,7 @@
     <path d="M0 66H2100V146.5L1781.22 132L1363.74 100.26L545.899 119.405H343.453L151.079 100.26L0 128.473V66Z" fill="#27292B"/>
     </svg>
      */
-}
+} */
 
 .pricing__subtitle,
 .pricing__title,
