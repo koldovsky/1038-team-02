@@ -1,3 +1,4 @@
+//Maksym Zinchuk
 function giveMeFive(obj) {
   let result = [];
   for (let key in obj) {
