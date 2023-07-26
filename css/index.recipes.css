@@ -20,13 +20,13 @@
   } 
   
   .latte__title {
-    font-family: var(--remember-text-font-family);
+    font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
   }
   
   .dessert__title {
-    font-family: var(--remember-text-font-family);
+    font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
   }
@@ -79,6 +79,14 @@
   .basic__recipes {
     background-color: var(--news-background-color);
   }
+
+  .button__recipes {
+    color: #e6e6e6;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--article-title);
+    border: 1px solid #black;
+  }
   
   @media (min-width: 767px) {
     .recipes__list {
@@ -88,4 +96,6 @@
       flex: 1;
     }
   }
+
+  
   
