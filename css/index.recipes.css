@@ -1,71 +1,89 @@
 .recipes__title {
- font-family: var(--features-font-family);
- font-size: 26px;
- color: var(--features-title);
-}
-
-.recipes__subtitle {
- font-family: var(--remember-font-family);
- font-size: 48px;
-}
-
-.recipes__description {
- font-family: var(--remember-text-font-family);
- font-size: 19px;
-}
-
-.recipes__text {
- font-family: var(--remember-text-font-family);
- font-size: 17px;
-} 
-
-.latte__title {
+    font-family: var(--features-font-family);
+    font-size: 26px;
+    color: var(--features-title);
+  }
+  
+  .recipes__subtitle {
+    font-family: var(--remember-font-family);
+    font-size: 48px;
+  }
+  
+  .recipes__description {
+    font-family: var(--remember-text-font-family);
+    font-size: 19px;
+  }
+  
+  .recipes__text {
+    font-family: var(--remember-text-font-family);
+    font-size: 17px;
+  } 
+  
+  .latte__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
     color: #e6e6e6;
-}
-
-.dessert__title {
+  }
+  
+  .dessert__title {
     font-family: var(--remember-text-font-family);
     font-size: 28px;
     color: #e6e6e6;
-}
-
-.latte__text {
+  }
+  
+  .latte__text {
+    padding: 35px;
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
-}
-
-.dessert__text {
+  }
+  
+  .dessert__text {
+    padding: 35px;
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
-}
-
-.latte {
-    margin: ;
-    width: 323px;
-    height: 403px;
+  }
+  
+  .latte {
+    min-width: 323px;
+    min-height: 403px;
     background-image: url(../img/latte.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
-}
-
-.dessert {
-    width: 323px;
-    height: 403px;
-    background-image: url(../img/dessert.png);
+    text-align: center;
+    padding-top: 35px;
+  }
+  
+  .dessert {
+    min-width: 323px;
+    min-height: 403px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/dessert.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
-}
-
-.recipes__list {
+    text-align: center;
+    padding-top: 35px;
+  }
+  
+  .recipes__list {
     display: flex;
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
+    flex-direction: column;
+    margin: 30px;
+    gap: 30px;
+  }
+  
+  .basic__recipes {
+    background-color: var(--news-background-color);
+  }
+  
+  @media (min-width: 767px) {
+    .recipes__list {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  
