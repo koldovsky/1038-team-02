@@ -81,6 +81,7 @@
 
 .pricing__article {
     background-color: rgba(255, 255, 255, 0.04);
+    width: 85vw;
 }
 
 .article__title {
@@ -93,12 +94,20 @@
 
 .article__price-duration {
     margin-top: 20px;
-    
+    font-family: var(--remember-text-font-family);
     color: var(--features-title);
 }
 
 .article__offer-list {
     color: #e6e6e6;
+    font-family: var(--remember-text-font-family);
+    display: flex;
+    flex-direction: column;
+}
+
+.article__offer-list li {
+    margin: 8px 0;
+    color: rgb(225, 224, 224)
 }
 
 .article__button {
