@@ -122,8 +122,8 @@
     top: 0;
     left: 0;
     /* transform: translateY(-50%); */
-    width: 24px; 
-    height: 24px;
+    width: 20x; 
+    height: 20px;
     background-image: url('/img/pricing-li-icon.svg');
     background-size: 20px;
     /* background-color: azure; */
@@ -132,6 +132,9 @@
 
 
 .article__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     background-color: var(--features-title);
     font-family: var(--remember-text-font-family);
@@ -139,6 +142,7 @@
     font-size: 15px;
     text-align: center;
     line-height: 15px;
+    width: 150px;
     height: 45px;
     letter-spacing: 0.3px;
     text-align: center;
