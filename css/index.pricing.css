@@ -111,18 +111,23 @@
 .article__offer-list li {   
     margin: 8px 0;
     color: rgb(225, 224, 224);
-    padding-left: 20px;
+    /* padding-right: 20px; */
+    position: relative;
 }
 
 .article__offer-list li:before {
     content: " ";
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 0;
     /* transform: translateY(-50%); */
     width: 24px; 
     height: 24px;
-    background-image: url('img/pricing-li-icon.svg');
+    background-image: url('/img/pricing-li-icon.svg') no-repeat center center;
+    object-fit: cover;
+    /* background-color: azure; */
+    margin-left: -25px;
+    margin-top: -3px;
 }
 
 
