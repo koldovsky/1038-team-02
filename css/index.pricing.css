@@ -10,13 +10,16 @@
 
 .pricing__background-add {
     display: block;
+    flex-basis: 100%;
+    position: relative;
     transform: rotate(180deg);
+    background-size: contain;
+    background-position: center;    
 }
 
 .pricing__background-settings {
     background: var(--contacts-background-color);
-    background-size: cover;
-    background-position: center;
+
 }
 
 .pricing__container {
