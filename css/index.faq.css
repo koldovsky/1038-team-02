@@ -226,4 +226,11 @@
         justify-content: space-between;
         flex-direction: column;
     }
+
+    .faq-cases  {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 2rem;
+    }   
 }
