@@ -166,6 +166,8 @@
     
     width: 40px;
     height: 40px;
+
+    cursor: pointer;
 }
 
 .faq-case-icon-inner:before {
@@ -178,9 +180,9 @@
     z-index: 1;
 
     height: 50%;
-    width: 1px;
+    width: 2px;
 
-    background-color: var(--logo-social);
+    background-color: var(--article-text);
 }
 
 .faq-case-icon-inner:after {
@@ -192,9 +194,18 @@
     left: 25%;
     z-index: 1;
 
-    height: 1px;
+    height: 2px;
     width: 50%;
 
+    background-color: var(--article-text);
+}
+
+.faq-case-icon:hover .faq-case-icon-inner:before {
+    background-color: var(--logo-social);
+}
+
+
+.faq-case-icon:hover .faq-case-icon-inner:after {
     background-color: var(--logo-social);
 }
 
