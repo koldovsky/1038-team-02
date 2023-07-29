@@ -24,7 +24,7 @@
 
 .pricing__container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     padding: 90px 15px;
 }
