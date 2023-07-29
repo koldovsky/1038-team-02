@@ -3,4 +3,4 @@ document.addEventListener('partialsLoaded', () => {
 });
 
 // code for the pricing part - Dunhovsky
-new Swiper('.pricing__articles');
+new Swiper('.swiper-container');
