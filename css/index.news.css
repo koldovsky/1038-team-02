@@ -83,7 +83,23 @@ a {
 .news__article-content-wrapper {
     padding: 20px 0 40px 0;
 }
+
+
+
+@media (min-width: 768px) {
+
+    .article-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:red;
+    }
+   
+    }
+
+    
+
 .news__article-container {
+    
     display: flex;
     margin:0;
     padding: 7.5px;
@@ -94,3 +110,13 @@ a {
 .news__article-container-wrapper {
     margin: 15px;
 }
+
+@media (min-width: 768px) {
+
+    .article-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+    }
+    
