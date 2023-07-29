@@ -4,3 +4,5 @@ document.addEventListener('partialsLoaded', () => {
 
 // code for the pricing part - Dunhovsky
 new Swiper('.swiper-container');
+
+alert('test');
