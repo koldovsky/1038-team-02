@@ -3,6 +3,14 @@ document.addEventListener('partialsLoaded', () => {
 });
 
 // code for the pricing part - Dunhovsky
-new Swiper('.swiper-container');
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
 
-alert('test');
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
