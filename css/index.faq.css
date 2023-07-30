@@ -210,6 +210,8 @@
 }
 
 .faq-case-answers {
+    display: none;
+
     font-family: var(--remember-text-font-family);
     font-size: 1rem;
     color: var(--contact-text-color);
