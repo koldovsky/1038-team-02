@@ -6,31 +6,51 @@ $(document).ready(function(){
         switch(temp) {
             case 'First':
                 $("#answerFirst").slideToggle(100);
+
+                if($("#answerSecond").css('display') == 'block') {
+                    $("#answerSecond").slideUp(100);
+                } else if($("#answerThird").css('display') == 'block') {
+                    $("#answerThird").slideUp(100);
+                } else if($("#answerFourth").css('display') == 'block') {
+                    $("#answerFourth").slideUp(100);
+                }
                 
-                $("#answerSecond").css('display', 'none');
-                $("#answerThird").css('display', 'none');
-                $("#answerFourth").css('display', 'none');
                 break;
             case 'Second':
                 $("#answerSecond").slideToggle(100);
 
-                $("#answerFirst").css('display', 'none');
-                $("#answerThird").css('display', 'none');
-                $("#answerFourth").css('display', 'none');
+                if($("#answerFirst").css('display') == 'block') {
+                    $("#answerFirst").slideUp(100);
+                } else if($("#answerThird").css('display') == 'block') {
+                    $("#answerThird").slideUp(100);
+                } else if($("#answerFourth").css('display') == 'block') {
+                    $("#answerFourth").slideUp(100);
+                }
+                
                 break;
             case 'Third':
                 $("#answerThird").slideToggle(100);
 
-                $("#answerFirst").css('display', 'none');
-                $("#answerSecond").css('display', 'none');
-                $("#answerFourth").css('display', 'none');
+                if($("#answerFirst").css('display') == 'block') {
+                    $("#answerFirst").slideUp(100);
+                } else if($("#answerSecond").css('display') == 'block') {
+                    $("#answerSecond").slideUp(100);
+                } else if($("#answerFourth").css('display') == 'block') {
+                    $("#answerFourth").slideUp(100);
+                }
+                
                 break;
             case 'Fourth':
                 $("#answerFourth").slideToggle(100);
 
-                $("#answerFirst").css('display', 'none');
-                $("#answerSecond").css('display', 'none');
-                $("#answerThird").css('display', 'none');
+                if($("#answerFirst").css('display') == 'block') {
+                    $("#answerFirst").slideUp(100);
+                } else if($("#answerSecond").css('display') == 'block') {
+                    $("#answerSecond").slideUp(100);
+                } else if($("#answerThird").css('display') == 'block') {
+                    $("#answerThird").slideUp(100);
+                }
+                
                 break;
         }
     })
