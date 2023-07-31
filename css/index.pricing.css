@@ -11,8 +11,9 @@
 .pricing__background-add {
     display: block;
     transform: rotate(180deg);
-    background-size: cover;
-    background-position: center;    
+    /* background-size: cover; */
+    /* background-position: center;     */
+    background:"no-repeat 52.19% 100% / cover 
 }
 
 .pricing__background-settings {
