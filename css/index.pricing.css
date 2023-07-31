@@ -13,7 +13,8 @@
     transform: rotate(180deg);
     /* background-size: cover; */
     /* background-position: center;     */
-    background:"no-repeat 52.19% 100% / cover 
+    background: url('/img/pricing-background-add.svg') no-repeat 52.19% 100% /cover, #27292b;
+
 }
 
 .pricing__background-settings {
