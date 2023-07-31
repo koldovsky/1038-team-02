@@ -5,50 +5,87 @@ $(document).ready(function(){
 
         switch(temp) {
             case 'First':
-                $("#answerFirst").slideToggle(100);
+                if($("#answerFirst").css('display') == 'block') {
+                    $("#answerFirst").slideUp(100);
+                    $("#iconFirst").removeClass("active");
+                } else if($("#answerFirst").css('display') == 'none'){
+                    $("#answerFirst").slideDown(100);
+                    $("#iconFirst").addClass("active");
+                }
 
                 if($("#answerSecond").css('display') == 'block') {
                     $("#answerSecond").slideUp(100);
+                    $("#iconSecond").removeClass("active");
                 } else if($("#answerThird").css('display') == 'block') {
                     $("#answerThird").slideUp(100);
+                    $("#iconThird").removeClass("active");
                 } else if($("#answerFourth").css('display') == 'block') {
                     $("#answerFourth").slideUp(100);
+                    $("#iconFourth").removeClass("active");
                 }
                 
                 break;
             case 'Second':
-                $("#answerSecond").slideToggle(100);
+                if($("#answerSecond").css('display') == 'block') {
+                    $("#answerSecond").slideUp(100);
+                    $("#iconSecond").removeClass("active");
+                } else if($("#answerSecond").css('display') == 'none'){
+                    $("#answerSecond").slideDown(100);
+                    $("#iconSecond").addClass("active");
+                }
 
                 if($("#answerFirst").css('display') == 'block') {
                     $("#answerFirst").slideUp(100);
+                    $("#iconFirst").removeClass("active");
                 } else if($("#answerThird").css('display') == 'block') {
                     $("#answerThird").slideUp(100);
+                    $("#iconThird").removeClass("active");
                 } else if($("#answerFourth").css('display') == 'block') {
                     $("#answerFourth").slideUp(100);
+                    $("#iconFourth").removeClass("active");
                 }
                 
                 break;
             case 'Third':
-                $("#answerThird").slideToggle(100);
+                if($("#answerThird").css('display') == 'block') {
+                    $("#answerThird").slideUp(100);
+                    $("#iconThird").removeClass("active");
+                } else if($("#answerThird").css('display') == 'none'){
+                    $("#answerThird").slideDown(100);
+                    $("#iconThird").addClass("active");
+                }
+
 
                 if($("#answerFirst").css('display') == 'block') {
                     $("#answerFirst").slideUp(100);
+                    $("#iconFirst").removeClass("active");
                 } else if($("#answerSecond").css('display') == 'block') {
                     $("#answerSecond").slideUp(100);
+                    $("#iconSecond").removeClass("active");
                 } else if($("#answerFourth").css('display') == 'block') {
                     $("#answerFourth").slideUp(100);
+                    $("#iconFourth").removeClass("active");
                 }
                 
                 break;
             case 'Fourth':
-                $("#answerFourth").slideToggle(100);
+                if($("#answerFourth").css('display') == 'block') {
+                    $("#answerFourth").slideUp(100);
+                    $("#iconFourth").removeClass("active");
+                } else if($("#answerFourth").css('display') == 'none'){
+                    $("#answerFourth").slideDown(100);
+                    $("#iconFourth").addClass("active");
+                }
 
                 if($("#answerFirst").css('display') == 'block') {
                     $("#answerFirst").slideUp(100);
+                    $("#iconFirst").removeClass("active");
                 } else if($("#answerSecond").css('display') == 'block') {
                     $("#answerSecond").slideUp(100);
+                    $("#iconSecond").removeClass("active");
                 } else if($("#answerThird").css('display') == 'block') {
                     $("#answerThird").slideUp(100);
+                    $("#iconThird").removeClass("active");
                 }
                 
                 break;

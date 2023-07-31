@@ -209,6 +209,10 @@
     background-color: var(--logo-social);
 }
 
+.faq-case-icon-inner.active::before {
+    display: none;
+}
+
 .faq-case-answers {
     display: none;
 
