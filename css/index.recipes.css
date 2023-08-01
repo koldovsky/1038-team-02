@@ -46,27 +46,27 @@
   }
   
   .latte {
-    min-width: 323px;
-    min-height: 403px;
-    background-image: url(../img/latte.png);
+    background-image: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/latte.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
     text-align: center;
     padding-top: 35px;
+    max-width: 444px;
+    height: 100%;
   }
   
   .dessert {
-    min-width: 323px;
-    min-height: 403px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/dessert.png);
+    background: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/dessert.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
     text-align: center;
     padding-top: 35px;
+    max-width: 444px;
+    height: 100%;
   }
   
   .recipes__list {
