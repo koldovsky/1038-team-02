@@ -88,12 +88,6 @@
     cursor: pointer;
     background-color: var(--article-title);
     border: 1px solid #black;
-    text-decoration: none;
-  }
-
-  .button__recipes:hover {
-    background-color: white;
-    color: black;
   }
   
   @media (min-width: 767px) {
