@@ -44,6 +44,14 @@
     font-size: 17px;
     color: #e6e6e6;
   }
+
+  .divider-line {
+    height: 3px;
+    width: 3%;
+    background-color: var(--features-title);
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .latte {
     background-image: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/latte.png);
