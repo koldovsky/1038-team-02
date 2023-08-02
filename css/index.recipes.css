@@ -6,17 +6,20 @@
   
   .recipes__subtitle {
     font-family: var(--remember-font-family);
-    font-size: 48px;
+    font-size: 58px;
+    color: #27292b;
   }
   
   .recipes__description {
     font-family: var(--remember-text-font-family);
     font-size: 19px;
+    color: #5b5b5b;
   }
   
   .recipes__text {
     font-family: var(--remember-text-font-family);
     font-size: 17px;
+    color: #828282;
   } 
   
   .latte__title {
@@ -47,9 +50,9 @@
 
   .divider-line {
     height: 3px;
-    width: 3%;
+    width: 10%;
     background-color: var(--features-title);
-    margin-left: auto;
+    margin-left: 15px;
     margin-right: auto;
   }
   
@@ -96,6 +99,12 @@
     cursor: pointer;
     background-color: var(--article-title);
     border: 1px solid #black;
+  }
+
+  .button__recipes:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
   }
   
   @media (min-width: 767px) {
