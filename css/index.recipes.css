@@ -52,9 +52,10 @@
     display: block;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
-    max-width: 444px;
-    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 337px;
+    height: auto;
   }
   
   .dessert {
@@ -64,9 +65,10 @@
     display: block;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
-    max-width: 444px;
-    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 337px;
+    height: auto;
   }
   
   .recipes__list {
