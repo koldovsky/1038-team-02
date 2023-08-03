@@ -2,12 +2,14 @@
     font-family: var(--features-font-family);
     font-size: 26px;
     color: var(--features-title);
+    font-weight: lighter;
   }
   
   .recipes__subtitle {
     font-family: var(--remember-font-family);
     font-size: 58px;
     color: #27292b;
+    font-weight: 200;
   }
 
   .recipes {
@@ -19,6 +21,7 @@
     font-size: 19px;
     color: #5b5b5b;
     padding-top: 15px;
+    font-weight: lighter;
   }
   
   .recipes__text {
@@ -26,18 +29,21 @@
     font-size: 17px;
     color: #828282;
     padding-top: 15px;
+    font-weight: lighter;
   } 
   
   .latte__title {
     font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .dessert__title {
     font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .latte__text {
@@ -45,6 +51,7 @@
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .dessert__text {
@@ -52,6 +59,7 @@
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
 
   .divider-line {
