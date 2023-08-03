@@ -1,30 +1,81 @@
 .feedbacks_subtitle{
-    color: #c7a17a;
+    color: var(--features-title);
     font-family: var(--features-font-family);
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
 }
 .feedbacks_title{
-    color: #dba17a;
+    color: var(--feedbacks-title);
     font-family: var(--remember-font-family);
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 20px;
+    color: var(--contacts-background-color);
 }
 .feedbacks_description{
     font-family: var(--remember-text-font-family);
+    text-align: center;
+
+  
 }
 .feedbacks_name{
     font-family: var(--remember-font-family);
+    color: var(--contacts-background-color);
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 .feedbacks_occupation{
-    color: #27292bcc;
+    color:var(--feedbacks-ocupation);
     font-family: var(--remember-text-font-family);
     font-style: italic;
+    font-size: 14px;
+    margin-top: 20px;
 }
 .feedbacks_text{
     font-family: var(--remember-text-font-family);
-    color: #828282;
+    color: var(--article-text);
+    font-size: 17px;
+    margin-top: 20px;
 }
 
 .feedbacks_date{
     font-family: var(--remember-text-font-family) ;
-    color: #c7a17a;
+    color: var(--features-title);
     font-weight: bold;
+    margin-top: 20px;
+}
+.feedbacks_dash{
+    height: 3px;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--features-title);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.cards__image_quotes {
+    height: 50px;
+    width: 33px;
+    color: var(--features-title);
+  }
+
+.feedbacks_carousel{
+    display: flex;
+    margin-top: 45px;
+
+}
+.carousel__slide{
+    border-style: solid;
+    border-color: rgb(242, 240, 236);
+    border-width: 1.6px;
+    padding: 31px;
+}
+
+.feedbacks container{
+    padding-left: 24px;
+    padding-right: 24px;
 }
