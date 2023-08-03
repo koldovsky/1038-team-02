@@ -3,7 +3,8 @@ document.addEventListener('partialsLoaded', () => {
 });
 
 // code for the pricing part - Dunhovsky
-var swiper = new Swiper(".slide-content", {
+
+function pricingSwiper() {const swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
   spaceBetween: 25,
   loop: true,
@@ -31,4 +32,6 @@ var swiper = new Swiper(".slide-content", {
           slidesPerView: 3,
       },
   },
-});
+});}
+
+setTimeout(pricingSwiper, 1000);
