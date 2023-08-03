@@ -18,12 +18,14 @@
     font-family: var(--remember-text-font-family);
     font-size: 19px;
     color: #5b5b5b;
+    padding-top: 15px;
   }
   
   .recipes__text {
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #828282;
+    padding-top: 15px;
   } 
   
   .latte__title {
@@ -54,9 +56,9 @@
 
   .divider-line {
     height: 3px;
-    width: 10%;
+    width: 20%;
     background-color: var(--features-title);
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: auto;
   }
   
