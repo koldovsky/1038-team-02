@@ -35,18 +35,20 @@
     --contact-text-color: #e1e0e0;
     --circle-remember: rgb(242, 240, 236);
     --header-p-color: #e6e6e6;
-    --header-nav-color:#faf6f2;
+    --header-nav-color: #faf6f2;
 
     --course-text-color: #9f9f9f;
     scroll-behavior: smooth;
     font-size: 17px;
     --feedbacks-title: #dba17a;
-    --feedbacks-ocupation:  #27292bcc;
+    --feedbacks-ocupation: #27292bcc;
 
     --contacts-form-background-color: rgba(255, 255, 255, 0.01);
     --contacts-form-text-color: #fff;
     --contacts-button-color: #c7a17a;
-    --contacts-info-text-color: rgb(225,224,224);
+    --contacts-info-text-color: rgb(225, 224, 224);
+    --footer-menu-color: rgb(225, 224, 224);
+    --footer-social-icon-color: rgb(199, 161, 122);
 }
 
 img {
