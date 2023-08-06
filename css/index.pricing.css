@@ -4,16 +4,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px 0 0 0;
+    /* padding: 60px 0 0 0; */
     overflow-x: hidden;
 }
 
 .pricing__background-add {
     display: block;
-    /* transform: rotate(180deg);
+    transform: rotate(180deg);
     background-size: cover;
-    background-position: center;     */
-    background: #f2f0ec url('/img/pricing-background-add.svg') no-repeat 52.19% 100% /cover, #27292b;
+    background-position: center;    
+    /* background: #f2f0ec url('/img/pricing-background-add.svg') no-repeat 52.19% 100% /cover, #27292b; */
+    background: #f2f0ec ;
 
 }
 
@@ -28,7 +29,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 15px;
+    padding: 10px 15px;
     min-width: 0;
 }
   
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-bottom: 45px; */
+    margin-bottom: 45px;
 }
   
 .pricing__subtitle,
@@ -87,15 +88,15 @@
 }
   
 .slide-container {
-    max-width: 1120px;
+    /* width: 1200px; */
     width: 100%;
     background: var(--contacts-background-color);
     /* padding: 40px 0; */
 }
 
 .swiper {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     position: relative;
     overflow: hidden;
     list-style: none;

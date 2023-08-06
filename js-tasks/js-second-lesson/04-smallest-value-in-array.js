@@ -25,3 +25,26 @@ function min(arr, toReturn) {
   }
 }
 
+//Duhnovskiy Oleksiy
+function min(arr, toReturn) {
+  if (toReturn === 'value') {
+    return minValue(arr);
+    }
+  else { 
+    return minValueIndex(arr)
+    }
+}
+
+function minValue(arr) {
+  let minimumValue = arr[0];
+  for (num of arr) {
+    if (minimumValue > num) { minimumValue = num } 
+  } return minimumValue 
+}
+
+function minValueIndex(arr) {
+  const minVal = minValue(arr);
+  return arr.indexOf(minVal)
+}
+
+

@@ -1,0 +1,10 @@
+function greet (name, owner) {
+  //1 solution
+  if (name === owner) return ('Hello boss');
+  else return ('Hello guest')
+
+//2 solution
+// name === owner ? return 'Hello boss': return 'Hello guest';
+}
+
+greet('Alex', 'Alex');
