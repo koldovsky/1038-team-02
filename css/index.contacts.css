@@ -18,6 +18,7 @@
 .contacts__map-form-inner {
   display: flex;
   padding: 32px;
+  padding-top: 120px;
 }
 
 .contacts__map-container {
@@ -65,6 +66,7 @@
   .contacts__map-form-inner {
     flex-direction: column;
     padding: 24px;
+    padding-top: 90px;
   }
 
   .contacts__form-container {
