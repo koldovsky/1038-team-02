@@ -87,15 +87,15 @@
 }
   
 .slide-container {
-    max-width: 1200px;
+    /* width: 1200px; */
     width: 100%;
     background: var(--contacts-background-color);
     /* padding: 40px 0; */
 }
 
 .swiper {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     position: relative;
     overflow: hidden;
     list-style: none;
