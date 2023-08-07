@@ -34,7 +34,7 @@
 
 .section__nav-left-2 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:right;
     width: 100%;
@@ -100,12 +100,10 @@
     height: 80px;
     align-items: center;
     display: flex;
-    flex-wrap:nowrap;
     justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -5px;
-    vertical-align: baseline;
 }
 
 .header__nav {
@@ -115,41 +113,44 @@
     vertical-align: baseline;
     position: relative;
     display: flex;
-
+    justify-content:flex-end;
 }
 
 .header__nav-links {
-    align-items: flex-start;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin: 20px -20px;
-    position: static;
-    vertical-align: baseline;
-    width: 100%;
-    height: 44px;
-    list-style-image: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 400;
+    list-style: none;
     list-style-position: outside;
     list-style-type: none;
+    vertical-align: baseline;
+    position: static;
+    width: 100%;
+    height: 44px;
 }
 
 .href-item {
+    width: 100%;
+    display: inline-block;
+    flex-wrap: wrap;
     align-items: center;
-    display: list-item;
     list-style-image: none;
     list-style-type: none;
     list-style-position: outside;
-    margin-bottom: 12.5px;
-    margin-top: 12.5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 0; 
+    margin-left: 10px; 
+    margin-right: 10px; 
     position: relative;
     text-align: left;
     vertical-align: baseline;
     font-family: var(--remember-text-font-family);
     color: var(--header-p-color);
     font-weight: bold;
+    font-size: 16px;
 }
 
 .horizontal-left{
@@ -169,7 +170,7 @@
     align-items: center;
     display: flex;
     flex: 2;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-weight: 400;
     justify-content: flex-end;
     margin-left: -10px;
@@ -194,7 +195,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-weight: 400;
     list-style: none;
     list-style-position: outside;
@@ -209,6 +210,7 @@
     width: 100%;
     height: 90px;
 }
+
 
 .header__banner {
     padding-top: 20px;
