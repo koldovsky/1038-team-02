@@ -94,8 +94,9 @@
     padding-right: 24px;
 }
 
-/* .carousel__button-left, .carousel__button-right {
+ .carousel__button-left, .carousel__button-right {
     width: 30px;
     height: 30px;
     color: white;
+    
 }
