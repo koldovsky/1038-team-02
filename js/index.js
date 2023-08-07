@@ -1,5 +1,6 @@
 document.addEventListener('partialsLoaded', () => {
-    import('./faq.js');
+import('./faq.js');
+import('./feedbacks.js')
 });
 
 // code for the pricing part - Dunhovsky
