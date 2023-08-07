@@ -193,6 +193,7 @@
 
 .header__nav-social {
     display: flex;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     font-weight: 400;
@@ -211,8 +212,8 @@
 }
 
 .header__banner {
-    padding-top: 225px;
-    padding-bottom: 335px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
