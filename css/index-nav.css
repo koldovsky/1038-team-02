@@ -7,14 +7,14 @@
 
 .section__nav {
     position: relative;
-    width: 1024px;
+    width: 100%;
     height: 135px;
     padding: 30px 40px;
 }
 
 .section__nav-horizontal {
     font-size: 16px;
-    width: 974px;
+    width: 100%;
     height: 75px;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
 }
 
 .section__nav-horizontal-left {
-    width: 163.25px;
+    width: 100%;
     height: 75px;
     vertical-align: baseline;
     margin-left: -15px;
@@ -39,7 +39,7 @@
     align-items: center;
     font-size: 16px;
     justify-content: flex-start;
-    width: 183.25px;
+    width: 100%;
     height: 80px;
     vertical-align: baseline;
     margin-left: -10px;
@@ -48,7 +48,7 @@
 }
 
 .section__nav3 {
-    width: 163.25px;
+    width: 100%;
     height: 75px;
     margin-left: 15px;
     margin-right: 15px;
@@ -56,7 +56,7 @@
 }
 
 .section__logo {
-    width: 163.25px;
+    width: 100%;
     height: 28.34px;
     display: flex;
     flex-direction: column;
@@ -68,14 +68,14 @@
 }
 
 .logo_content {
-    width: 163.25px;
+    width: 100%;
     height: 28.34px;
     justify-content: flex-start;
     vertical-align: baseline;
 }
 
 .logo_img {
-    width: 163.25px;
+    width: 100%;
     height: 28.34px;
     position: relative;
     vertical-align: baseline;
@@ -84,12 +84,12 @@
 .header__nav-image {
     background-color: transparent;
     vertical-align: baseline;
-    width: 163.25px;
+    width: 100%;
     height: 28.34px;
 }
 
 .header__nav-mid {
-    width: 561.42px;
+    width: 100%;
     height: 75px;
     vertical-align: baseline;
     margin-left: 15px;
@@ -98,7 +98,7 @@
 }
 
 .header__nav_hmid {
-    width: 581.42px;
+    width: 100%;
     height: 80px;
     align-items: center;
     display: flex;
@@ -129,7 +129,7 @@
     margin: 20px -20px;
     position: static;
     vertical-align: baseline;
-    width: 532.14px;
+    width: 100%;
     height: 44px;
     list-style-image: none;
     list-style-position: outside;
@@ -156,7 +156,7 @@
 
 .horizontal-left{
     display: flex;
-    width: 159.33px;
+    width: 100%;
     height: 75px;
     font-weight: 400;
     line-height: 16px;
@@ -166,7 +166,7 @@
 }
 
 .horizontal-left__section{
-    width: 179.33;
+    width: 100%;
     height: 80px;
     align-items: center;
     display: flex;
@@ -180,7 +180,7 @@
 }
 
 .social-icons__cont{
-    width: 159.33px;
+    width: 100%;
     height: 75px;
     display: flex;
     font-weight: 400;
@@ -206,7 +206,7 @@
     margin-left: -7.5px;
     margin-right: -7.5px;
     vertical-align: baseline;
-    width: 174.33px;
+    width: 100%;
     height: 90px;
 }
 
@@ -247,7 +247,7 @@
 
 @media (max-width: 900px) {
     .header__nav {
-        width: 320px;
+        width: 100%;
         height: 100px;
         padding: 0px 24px;
     }
@@ -261,7 +261,7 @@
         position: relative;
         top: 0;
         left: 0;
-        width: 188px;
+        width: 100%;
         height: 82px;
         display: flex;
         flex-direction: row;
@@ -272,7 +272,7 @@
     }
 
     .text__box-h1 {
-        width: 272px;
+        width: 100%;
         height: 27px;
         display: flex;
         align-items: center;
@@ -281,7 +281,7 @@
 
     .header-h1 {
         display: flex;
-        width: 102px;
+        width: 100%;
         height: 37px;
         font-size: 26px;
         text-align: center;
@@ -289,7 +289,7 @@
     }
 
     .text__box-h2 {
-        width: 272px;
+        width: 100%;
         height: 124px;
         display: flex;
         align-items: center;
@@ -297,14 +297,14 @@
     }
 
     .header-h2 {
-        width: 230px;
+        width: 100%;
         height: 143px;
         font-size: 62px;
         text-align: center;
     }
 
     .text__box-h3 {
-        width: 272px;
+        width: 100%;
         height: 85px;
         display: flex;
         align-items: center;
@@ -312,7 +312,7 @@
     }
 
     .header-h3 {
-        width: 260px;
+        width: 100%;
         height: 80px;
         font-size: 62px;
         text-align: center;
