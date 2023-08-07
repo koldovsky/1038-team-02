@@ -1,3 +1,11 @@
+.feedbacks_container{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 .feedbacks_subtitle{
     color: var(--features-title);
     font-family: var(--features-font-family);
@@ -5,6 +13,7 @@
     margin-bottom: 15px;
     font-size: 26px;
 }
+
 .feedbacks_title{
     color: var(--feedbacks-title);
     font-family: var(--remember-font-family);
@@ -73,9 +82,20 @@
     border-color: rgb(242, 240, 236);
     border-width: 1.6px;
     padding: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .feedbacks container{
     padding-left: 24px;
     padding-right: 24px;
+}
+
+/* .carousel__button-left, .carousel__button-right {
+    width: 30px;
+    height: 30px;
+    color: white;
 }
