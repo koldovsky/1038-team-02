@@ -2,6 +2,7 @@ document.addEventListener('partialsLoaded', () => {
   import('./faq.js');
   import('./feedbacks.js');
   import('./contacts.js');
+  import('./offers.js');
 });
 
 // code for the pricing part - Dunhovsky
