@@ -1,23 +1,31 @@
+.feedbacks_container{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 .feedbacks_subtitle{
     color: var(--features-title);
     font-family: var(--features-font-family);
     text-align: center;
-    margin-bottom: 15px;
-    font-size: 26px;
+    margin-bottom: auto;
+    font-size: 24px;
 }
+
 .feedbacks_title{
     color: var(--feedbacks-title);
     font-family: var(--remember-font-family);
     text-align: center;
-    font-size: 2.3rem;
-    margin-top: 20px;
+    font-size: 58px;
+    margin-top: 10px;
     color: var(--contacts-background-color);
 }
 .feedbacks_description{
     font-family: var(--remember-text-font-family);
     text-align: center;
-
-  
+    font-size: 19px;  
 }
 .feedbacks_name{
     font-family: var(--remember-font-family);
@@ -53,7 +61,7 @@
     margin-right: auto;
     background-color: var(--features-title);
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -66,6 +74,8 @@
 .feedbacks_carousel{
     display: flex;
     margin-top: 45px;
+    padding-left: 32px;
+    padding-right: 32x;
 
 }
 .carousel__slide{
@@ -73,9 +83,27 @@
     border-color: rgb(242, 240, 236);
     border-width: 1.6px;
     padding: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .feedbacks container{
     padding-left: 24px;
     padding-right: 24px;
+    padding-bottom: 105px;
+}
+.feedbacks-btn-prev, .feedbacks-btn-next{
+    border: none;
+    color: rgb(242, 240, 236);
+background-color: white;
+}
+.feedbacks-btn-next{
+    padding-right: 35px;
+}
+
+.feedbacks-arrows{
+    width: 25px;
 }

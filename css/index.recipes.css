@@ -2,33 +2,48 @@
     font-family: var(--features-font-family);
     font-size: 26px;
     color: var(--features-title);
+    font-weight: lighter;
   }
   
   .recipes__subtitle {
     font-family: var(--remember-font-family);
-    font-size: 48px;
+    font-size: 58px;
+    color: #27292b;
+    font-weight: 200;
+  }
+
+  .recipes {
+    max-width: 370px;
   }
   
   .recipes__description {
     font-family: var(--remember-text-font-family);
     font-size: 19px;
+    color: #5b5b5b;
+    padding-top: 15px;
+    font-weight: lighter;
   }
   
   .recipes__text {
     font-family: var(--remember-text-font-family);
     font-size: 17px;
+    color: #828282;
+    padding-top: 15px;
+    font-weight: lighter;
   } 
   
   .latte__title {
     font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .dessert__title {
     font-family: var(--remember-font-family);
     font-size: 28px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .latte__text {
@@ -36,6 +51,7 @@
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
+    font-weight: lighter;
   }
   
   .dessert__text {
@@ -43,37 +59,50 @@
     font-family: var(--remember-text-font-family);
     font-size: 17px;
     color: #e6e6e6;
+    font-weight: lighter;
+  }
+
+  .divider-line {
+    height: 3px;
+    width: 20%;
+    background-color: var(--features-title);
+    margin-left: 5px;
+    margin-right: auto;
   }
   
   .latte {
-    min-width: 323px;
-    min-height: 403px;
-    background-image: url(../img/latte.png);
+    background-image: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/latte.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 360px;
+    height: auto;
   }
   
   .dessert {
-    min-width: 323px;
-    min-height: 403px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/dessert.png);
+    background: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/dessert.png);
     background-size: cover;
     background-position: center;
     display: block;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 360px;
+    height: auto;
   }
   
   .recipes__list {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 60px;
-    gap: 30px;
+    gap: 20px;
   }
   
   .basic__recipes {
@@ -86,6 +115,12 @@
     cursor: pointer;
     background-color: var(--article-title);
     border: 1px solid #black;
+  }
+
+  .button__recipes:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
   }
   
   @media (min-width: 767px) {

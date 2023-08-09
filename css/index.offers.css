@@ -21,9 +21,21 @@
 
 .header-name {
     font-family: var(--remember-font-family);
-    font-size: 2.3rem;
+    font-size: 3.5rem;
     font-weight: normal;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) { 
+  .header-name {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-name {
+    font-size: 3rem;
+  }
 }
 
 .course-dash {
@@ -45,14 +57,14 @@
     font-weight: 500;
 }
 
-.courses-offers-sign-up {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .course-section {
   padding: 7.5px;
   font-family: var(--remember-font-family);
+  text-align: center;
+}
+
+.courses-offers-sign-up {
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -106,7 +118,5 @@
   padding-right: 50px;
   margin-top: 20px;
 }
-/*карусель в процесі...*/
-
 
 
