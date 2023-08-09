@@ -9,6 +9,7 @@
     background-size: auto;
     background-repeat: no-repeat;
     background-position: bottom;
+    position: relative;
 }
 
 .block-name {
@@ -81,7 +82,7 @@
   margin-right: 20px;  
 }
 
-.information-about-course {/* flex */
+.information-about-course {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -119,4 +120,31 @@
   margin-top: 20px;
 }
 
+.courses-offers-sign-up {
+  display: none;
+}
+.courses-offers-sign-up:first-child {
+  display: block;
+}
+
+.prev-button-course,
+.next-button-course {
+  background: none;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+}
+
+.prev-button-course {
+    left: 10px;
+}
+
+.next-button-course {
+    right: 10px;
+}
 
