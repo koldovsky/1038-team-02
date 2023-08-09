@@ -97,13 +97,12 @@ a {
     letter-spacing: normal;
     margin-bottom: 5px;
     line-height: 25.5px;
-    padding: 8px 0 0 15px;
+    padding: 8px 0 0 0;
 }
 .news__article-content-wrapper {
     padding: 20px 0 40px 0;
 }
 .news__article {
-    margin:0;
     padding: 0 15px;
 } 
 .news__article-container {
@@ -123,6 +122,9 @@ a {
     display: grid;
     grid-template-columns: 60% 40%;
 }
+.news__article {
+    padding: 50px 15px 0 15px;
+} 
 .news__article-image{
     width: 120px;   
   }  
