@@ -1,8 +1,10 @@
 .header-background {
     background: linear-gradient(rgba(37, 37, 37, 0.856), rgba(32, 32, 32, 0.856)), url(../img/barista.png);
-    min-height: 578px;
+    min-height: 900px;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
+    gap: 20px;
+    align-items: center;
 }
 
 .section__nav {
@@ -13,15 +15,11 @@
 }
 
 .section__nav-horizontal {
-    width: 100%;
-    height: 75px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    line-height: 16px;
-    margin-left: -15px;
-    margin-right: -15px;
-    vertical-align: baseline;
+    margin-left: calc(30px/-2);
+    margin-right: calc(30px/-2);
 }
 
 .section__nav-horizontal-left {
@@ -34,9 +32,8 @@
 
 .section__nav-left-2 {
     display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:right;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
     height: 80px;
     vertical-align: baseline;
@@ -54,7 +51,7 @@
 }
 
 .section__logo {
-    width: 100%;
+    max-width: 100%;
     height: 28.34px;
     display: flex;
     flex-direction: column;
@@ -66,28 +63,30 @@
 }
 
 .logo_content {
-    width: 100%;
+    max-width: 100%;
     height: 28.34px;
     justify-content: flex-start;
     vertical-align: baseline;
 }
 
 .logo_img {
-    width: 100%;
+    max-width: 100%;
     height: 28.34px;
     position: relative;
     vertical-align: baseline;
 }
 
 .header__nav-image {
+    display: block;
     background-color: transparent;
-    vertical-align: baseline;
-    width: 100%;
+    max-width: 100%;
     height: 28.34px;
+    cursor: pointer;
 }
 
 .header__nav-mid {
-    width: 100%;
+    justify-content: center;
+    max-width: 100%;
     height: 75px;
     vertical-align: baseline;
     margin-left: 15px;
@@ -107,20 +106,14 @@
 }
 
 .header__nav {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    vertical-align: baseline;
     position: relative;
     display: flex;
-    justify-content:flex-end;
 }
 
 .header__nav-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     font-weight: 400;
     list-style: none;
@@ -128,32 +121,38 @@
     list-style-type: none;
     vertical-align: baseline;
     position: static;
-    width: 100%;
+    width: calc(100%+40px);
     height: 44px;
 }
 
 .href-item {
-    width: 100%;
-    display: inline-block;
-    flex-wrap: wrap;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
     align-items: center;
     list-style-image: none;
     list-style-type: none;
     list-style-position: outside;
     margin-bottom: 0;
-    margin-top: 0; 
-    margin-left: 10px; 
-    margin-right: 10px; 
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     text-align: left;
-    vertical-align: baseline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-family: var(--remember-text-font-family);
     color: var(--header-p-color);
     font-weight: bold;
     font-size: 16px;
 }
 
-.horizontal-left{
+.href-item:hover {
+    color: var(--contacts-form-text-color);
+    transition: color 0.7 ease;
+}
+
+.horizontal-right {
     display: flex;
     width: 100%;
     height: 75px;
@@ -161,26 +160,26 @@
     line-height: 16px;
     margin-left: 15px;
     margin-right: 15px;
+    justify-content: center;
     vertical-align: baseline;
 }
 
-.horizontal-left__section{
-    width: 100%;
+.horizontal-right__section {
+    width: calc(100%+20px);
     height: 80px;
     align-items: center;
     display: flex;
-    flex: 2;
     flex-wrap: wrap;
     font-weight: 400;
-    justify-content: flex-end;
+    justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -5px;
     vertical-align: baseline;
 }
 
-.social-icons__cont{
-    width: 100%;
+.social-icons__cont {
+    max-width: calc(100%-20px);
     height: 75px;
     display: flex;
     font-weight: 400;
@@ -200,21 +199,14 @@
     list-style: none;
     list-style-position: outside;
     list-style-type: none;
-    margin-block-end: -15px;
-    margin-bottom: -15px;
-    margin-inline-end: -7.5px;
-    margin-inline-start: -7.5px;
     margin-left: -7.5px;
     margin-right: -7.5px;
     vertical-align: baseline;
-    width: 100%;
-    height: 90px;
 }
 
 
 .header__banner {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 270px 0 335px 0;
 }
 
 
@@ -248,75 +240,50 @@
 }
 
 @media (max-width: 900px) {
-    .header__nav {
-        width: 100%;
-        height: 100px;
-        padding: 0px 24px;
+    .section__nav-horizontal {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        justify-content: space-between;
     }
 
+    .section__nav-horizontal-left{
+        flex-direction: column;
+        text-decoration: none;
+        width: 100%;
+    }
 
-    .header-background {
-        background-size: cover;
+    .logo_img{
+       display: block;
+        max-width: 100%;
+        cursor: pointer;
     }
 
     .header__nav-image {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 82px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 0;
-        z-index: 10;
+        display: block;
+        max-width: 100%;
+        cursor: pointer;
     }
 
-    .text__box-h1 {
-        width: 100%;
-        height: 27px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .header__banner {
+        padding-top: 130px;
+        padding-bottom: 150px;
     }
 
     .header-h1 {
-        display: flex;
-        width: 100%;
-        height: 37px;
-        font-size: 26px;
+        font-size: 1.6rem;
         text-align: center;
-        justify-content: center;
-    }
-
-    .text__box-h2 {
-        width: 100%;
-        height: 124px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .header-h2 {
-        width: 100%;
-        height: 143px;
-        font-size: 62px;
+        font-size: 3.8rem;
         text-align: center;
     }
 
-    .text__box-h3 {
-        width: 100%;
-        height: 85px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header-h3 {
-        width: 100%;
-        height: 80px;
-        font-size: 62px;
+    .header-p {
+        font-size: 1.1rem;
         text-align: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
     }
 }
