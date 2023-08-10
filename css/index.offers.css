@@ -115,9 +115,21 @@
 }
 
 .sign-up-of-course {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin-top: 20px;
+  background-color: var(--footer-social-icon-color);
+  border: none;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-of-course:hover {
+  background-color: var(--forma-background-color);
 }
 
 .courses-offers-sign-up {
@@ -148,3 +160,20 @@
     right: 10px;
 }
 
+.offers-picture {
+  width: 25px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.offers-picture-money {
+  width: 40px;
+  padding-top: 17px;
+  margin: 0;
+}
+
+.offers-picture-time {
+  width: 40px;
+  padding-top: 17px;
+  margin: 0;
+}
