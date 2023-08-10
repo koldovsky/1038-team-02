@@ -123,9 +123,9 @@
   color: white;
   padding-top: 16px;
   padding-bottom: 16px;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 20px;
   transition: background-color 0.3s ease;
+  border-radius: 2px;
 }
 
 .sign-up-of-course:hover {
@@ -133,6 +133,8 @@
 }
 
 .courses-offers-sign-up {
+  padding-left: 10%;
+  padding-right: 10%;
   display: none;
 }
 .courses-offers-sign-up:first-child {
@@ -153,11 +155,11 @@
 }
 
 .prev-button-course {
-    left: 10px;
+    left: 12%;
 }
 
 .next-button-course {
-    right: 10px;
+    right: 12%;
 }
 
 .offers-picture {
